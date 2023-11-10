@@ -1,0 +1,228 @@
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.AssemblyReference.cache
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.SuggestedBindingRedirects.cache
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormParametrPolprodukt.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormParametrProdukt.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormProdukt.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSkladPolprodukt.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSkladProdukt.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSkladProduktMaterial.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormWytwarzanie.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.Start.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.Properties.Resources.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.GenerateResource.cache
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.CoreCompileInputs.cache
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\bin\Debug\Praca_mgr.exe.config
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\bin\Debug\Praca_mgr.exe
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\bin\Debug\Praca_mgr.pdb
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\bin\Debug\EntityFramework.dll
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\bin\Debug\EntityFramework.xml
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.CopyComplete
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.exe
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.pdb
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormDodajParametr.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormDodajJednostka.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSkladStanowisko.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSlownikStanowisko.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormDodajAlert.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormKontrolaJakosciPolprodukt.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormKontrolaJakosciProdukt.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\bin\Debug\Praca_mgr.exe.config
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\bin\Debug\Praca_mgr.exe
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\bin\Debug\Praca_mgr.pdb
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\bin\Debug\EntityFramework.dll
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\bin\Debug\EntityFramework.xml
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.AssemblyReference.cache
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.SuggestedBindingRedirects.cache
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormDodajAlert.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormDodajJednostka.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormDodajParametr.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormKontrolaJakosciPolprodukt.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormKontrolaJakosciProdukt.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormParametrPolprodukt.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormParametrProdukt.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormProdukt.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSkladPolprodukt.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSkladProdukt.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSkladProduktMaterial.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSkladStanowisko.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSlownikStanowisko.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormWytwarzanie.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.Start.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.Properties.Resources.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.GenerateResource.cache
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.CoreCompileInputs.cache
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.CopyComplete
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.exe
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.pdb
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormNowyPojazd.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormPojazdSilnik.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormPojazdWyposazenie.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormMarka.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormMarkaModel.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormModel.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\bin\Debug\Praca_mgr.exe.config
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\bin\Debug\Praca_mgr.exe
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\bin\Debug\Praca_mgr.pdb
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\bin\Debug\EntityFramework.dll
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\bin\Debug\EntityFramework.xml
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.AssemblyReference.cache
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.SuggestedBindingRedirects.cache
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormDodajAlert.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormDodajJednostka.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormDodajParametr.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormKontrolaJakosciPolprodukt.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormKontrolaJakosciProdukt.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormMarka.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormMarkaModel.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormModel.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormNowyPojazd.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormParametrPolprodukt.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormParametrProdukt.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormPojazdSilnik.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormPojazdWyposazenie.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormProdukt.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSkladPolprodukt.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSkladProdukt.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSkladProduktMaterial.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSkladStanowisko.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSlownikStanowisko.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormWytwarzanie.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.Start.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.Properties.Resources.resources
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.GenerateResource.cache
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.CoreCompileInputs.cache
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.CopyComplete
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.exe
+C:\Users\arek0\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.pdb
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\bin\Debug\Praca_mgr.exe.config
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\bin\Debug\Praca_mgr.exe
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\bin\Debug\Praca_mgr.pdb
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\bin\Debug\EntityFramework.dll
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\bin\Debug\EntityFramework.xml
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.AssemblyReference.cache
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.SuggestedBindingRedirects.cache
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormDodajAlert.resources
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormDodajJednostka.resources
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormDodajParametr.resources
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormKontrolaJakosciPolprodukt.resources
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormKontrolaJakosciProdukt.resources
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormMarka.resources
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormMarkaModel.resources
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormModel.resources
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormNowyPojazd.resources
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormParametrPolprodukt.resources
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormParametrProdukt.resources
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormPojazdSilnik.resources
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormPojazdWyposazenie.resources
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormProdukt.resources
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSkladPolprodukt.resources
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSkladProdukt.resources
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSkladProduktMaterial.resources
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSkladStanowisko.resources
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSlownikStanowisko.resources
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormWytwarzanie.resources
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.Start.resources
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.Properties.Resources.resources
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.GenerateResource.cache
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.CoreCompileInputs.cache
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.CopyComplete
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.exe
+C:\Users\kamil\Desktop\MGR ARKADIUSZ — proba zmian z wersja\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.pdb
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\bin\Debug\Praca_mgr.exe.config
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\bin\Debug\Praca_mgr.exe
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\bin\Debug\Praca_mgr.pdb
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\bin\Debug\EntityFramework.dll
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\bin\Debug\EntityFramework.xml
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.AssemblyReference.cache
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.SuggestedBindingRedirects.cache
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormDodajAlert.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormDodajJednostka.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormDodajParametr.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormKontrolaJakosciPolprodukt.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormKontrolaJakosciProdukt.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormMarka.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormMarkaModel.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormModel.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormNowyPojazd.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormParametrPolprodukt.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormParametrProdukt.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormPojazdSilnik.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormPojazdWyposazenie.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormProdukt.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSkladPolprodukt.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSkladProdukt.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSkladProduktMaterial.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSkladStanowisko.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSlownikStanowisko.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormTypSilnik.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormWytwarzanie.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.Start.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.Properties.Resources.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.GenerateResource.cache
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.CoreCompileInputs.cache
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.CopyComplete
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.exe
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.pdb
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSzeregowanie.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR_Kamil\MGR_Kamil\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormTyp.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\bin\Debug\Praca_mgr.exe.config
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\bin\Debug\Praca_mgr.exe
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\bin\Debug\Praca_mgr.pdb
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\bin\Debug\EntityFramework.dll
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\bin\Debug\EntityFramework.xml
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.AssemblyReference.cache
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.SuggestedBindingRedirects.cache
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormDodajAlert.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormDodajJednostka.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormDodajParametr.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormKontrolaJakosciPolprodukt.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormKontrolaJakosciProdukt.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormMarka.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormMarkaModel.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormModel.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormNowyPojazd.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormParametrPolprodukt.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormParametrProdukt.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormPojazdSilnik.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormProdukt.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSkladPolprodukt.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSkladProdukt.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSkladProduktMaterial.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSkladStanowisko.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSlownikStanowisko.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormSzeregowanie.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormTyp.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormTypModel.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormTypSilnik.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormWytwarzanie.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.Start.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.Properties.Resources.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.GenerateResource.cache
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.CoreCompileInputs.cache
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.csproj.CopyComplete
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.exe
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.pdb
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormWyposazenie.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormWyposazenieProdukt.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormZamowienie.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormZamowienieSzczegol.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormPojazdCzynnosc.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormMontaz.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormZamowienieProdukt.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormZamowienieProduktSzczegol.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormKontrolaPojazd.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormAlerty.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormMagazynPojazd.resources
+C:\Users\arek0\Desktop\Nowy folder _ praca mg aktualna\MGR\Praca_mgr\Praca_mgr\obj\Debug\Praca_mgr.FormKlient.resources

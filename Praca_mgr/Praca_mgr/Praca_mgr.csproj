@@ -1,0 +1,1391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{61B09BC4-B9C4-48C8-8F6A-6D3A400675A1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Praca_mgr</RootNamespace>
+    <AssemblyName>Praca_mgr</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alert.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Czesc.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Czynnosc_produkcyjna.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Dane_adresowe_pracownik.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Dostawca.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Dzial.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Email_pracownik.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Firma_produkcyjna.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Firma_produkcyjna.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Firma_produkcyjna.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Firma_produkcyjna.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Firma_produkcyjna.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="FormAlerty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlerty.Designer.cs">
+      <DependentUpon>FormAlerty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDodajAlert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDodajAlert.Designer.cs">
+      <DependentUpon>FormDodajAlert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDodajJednostka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDodajJednostka.Designer.cs">
+      <DependentUpon>FormDodajJednostka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDodajParametr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDodajParametr.Designer.cs">
+      <DependentUpon>FormDodajParametr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKlient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKlient.Designer.cs">
+      <DependentUpon>FormKlient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKontrolaJakosciPolprodukt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKontrolaJakosciPolprodukt.Designer.cs">
+      <DependentUpon>FormKontrolaJakosciPolprodukt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKontrolaJakosciProdukt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKontrolaJakosciProdukt.Designer.cs">
+      <DependentUpon>FormKontrolaJakosciProdukt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKontrolaPojazd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKontrolaPojazd.Designer.cs">
+      <DependentUpon>FormKontrolaPojazd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMagazynPojazd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMagazynPojazd.Designer.cs">
+      <DependentUpon>FormMagazynPojazd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMarka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMarka.Designer.cs">
+      <DependentUpon>FormMarka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMarkaModel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMarkaModel.Designer.cs">
+      <DependentUpon>FormMarkaModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormModel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModel.Designer.cs">
+      <DependentUpon>FormModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMontaz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMontaz.Designer.cs">
+      <DependentUpon>FormMontaz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNowyPojazd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNowyPojazd.Designer.cs">
+      <DependentUpon>FormNowyPojazd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPojazdCzynnosc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPojazdCzynnosc.Designer.cs">
+      <DependentUpon>FormPojazdCzynnosc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPojazdSilnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPojazdSilnik.Designer.cs">
+      <DependentUpon>FormPojazdSilnik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormWyposazenie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWyposazenie.Designer.cs">
+      <DependentUpon>FormWyposazenie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSkladStanowisko.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSkladStanowisko.Designer.cs">
+      <DependentUpon>FormSkladStanowisko.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormParametrPolprodukt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormParametrPolprodukt.Designer.cs">
+      <DependentUpon>FormParametrPolprodukt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormParametrProdukt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormParametrProdukt.Designer.cs">
+      <DependentUpon>FormParametrProdukt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProdukt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProdukt.Designer.cs">
+      <DependentUpon>FormProdukt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSkladPolprodukt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSkladPolprodukt.Designer.cs">
+      <DependentUpon>FormSkladPolprodukt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSkladProdukt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSkladProdukt.Designer.cs">
+      <DependentUpon>FormSkladProdukt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSkladProduktMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSkladProduktMaterial.Designer.cs">
+      <DependentUpon>FormSkladProduktMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSlownikStanowisko.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSlownikStanowisko.Designer.cs">
+      <DependentUpon>FormSlownikStanowisko.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSzeregowanie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSzeregowanie.Designer.cs">
+      <DependentUpon>FormSzeregowanie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTyp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTyp.Designer.cs">
+      <DependentUpon>FormTyp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTypModel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTypModel.Designer.cs">
+      <DependentUpon>FormTypModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTypSilnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTypSilnik.Designer.cs">
+      <DependentUpon>FormTypSilnik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormWyposazenieProdukt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWyposazenieProdukt.Designer.cs">
+      <DependentUpon>FormWyposazenieProdukt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormWytwarzanie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWytwarzanie.Designer.cs">
+      <DependentUpon>FormWytwarzanie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormZamowienie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormZamowienie.Designer.cs">
+      <DependentUpon>FormZamowienie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormZamowienieProdukt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormZamowienieProdukt.Designer.cs">
+      <DependentUpon>FormZamowienieProdukt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormZamowienieProduktSzczegol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormZamowienieProduktSzczegol.Designer.cs">
+      <DependentUpon>FormZamowienieProduktSzczegol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormZamowienieSzczegol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormZamowienieSzczegol.Designer.cs">
+      <DependentUpon>FormZamowienieSzczegol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gwarancja.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Jednostka.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Klient.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Kontrola_jakosci_pojazd.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Kontrola_jakosci_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Kontrola_jakosci_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Kontrola_parametr_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Kontrola_parametr_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Magazynowanie_slownik.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Marka_model.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Marka_model_pojazd.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Marka_pojazd_slownik.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Maszyna.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Maszyna_nr_seryjny.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Material.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Miejsce_magazynowanie_pojazd.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Miejsce_magazynowanie_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Miejsce_magazynowanie_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model_pojazd_slownik.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Montaz_pojazd.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Narzedzie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Nieobecnosc.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Nr_seryjny.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Nr_telefon_pracownik.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Obsluga.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Obsluga_pracownik.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Parametr_czesc.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Parametr_maszyna.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Parametr_material.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Parametr_narzedzie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Parametr_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Parametr_poziom_magazynowanie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Parametr_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Parametr_typ_magazynowania.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Pojazd.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Poziom_magazynowanie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Pracownik.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Proces_montaz_pojazd.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Proces_montaz_pojazd_czynnosc.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Proces_polprodukt_czynnosc.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Proces_produkt_czynnosc.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Proces_wytwarzanie_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Proces_wytwarzanie_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Producent.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Reklamacja_pojazd.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Reklamacja_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Rodzaj_czesc.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Rodzaj_kontrola.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Rodzaj_maszyna.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Rodzaj_material.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Rodzaj_nieobecnosci.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Rodzaj_obsluga.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Rodzaj_parametr.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Rodzaj_szkolenie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Rodzaj_umowy.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sklad_maszyna.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sklad_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sklad_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sklad_produkt_material.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sklad_stanowisko_produkcyjne_maszyna.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sklad_stanowisko_produkcyjne_narzedzie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Slownik_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Slownik_stanowisko.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Stanowisko.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Stanowisko_pracownik.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Stanowisko_produkcyjne.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Stan_realizacji_zamowienie_czesc.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Stan_realizacji_zamowienie_maszyna.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Stan_realizacji_zamowienie_material.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Stan_realizacji_zamowienie_narzedzie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Stan_realizacji_zamowienie_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Stan_realizacji_zamowienie_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Start.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Start.Designer.cs">
+      <DependentUpon>Start.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Status_zamowienie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Szczegoly_zamowienie_czesc.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Szczegoly_zamowienie_maszyna.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Szczegoly_zamowienie_material.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Szczegoly_zamowienie_narzedzie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Szczegoly_zamowienie_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Szczegoly_zamowienie_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Szczegol_reklamacja_pojazd.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Szczegol_reklamacja_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Szkolenie_pracownik.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Typ_pojazd_model.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Typ_pojazd_model_silnik.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Typ_pojazd_slownik.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Typ_reklamacja.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Typ_zamowienie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Umowa.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Aktualny_stan_magazyn.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Alerty_ProductionDepartment.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Alerty_ProductionDepartment_nieodczytane.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Alerty_ResorceDepartment_nieodczytane.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Alerty_ResourceDepartment.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Brakujacy_material.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Calkowity_koszt_zamowienia.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Czas_drukowanie_produktow_do_zamowien.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Czas_po_szeregowaniu.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Czas_przed_szeregowaniem.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Czas_wytwarzanie_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Czas_wytwarzanie_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Czesci.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Czynnosc_produkcyjna.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Dane_adresowe_pracownik.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Email_pracownik.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Ilosc_kontrola_pozytywna.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Ilosc_kontrola_pozytywna_pojazd.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Ilosc_kontrola_pozytywna_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Kontrola_jakosci_kolejka.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Kontrola_jakosci_kolejka_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Kontrola_jakosci_pojazd.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Kontrola_jakosci_pojazd_kolejka.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Kontrola_jakosci_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Kontrola_jakosci_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Kontrola_negatywna.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Kontrola_negatywna_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Kontrola_parametr_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Kontrola_parametr_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Kontrola_pozytywna.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Kontrola_pozytywna_pojazd.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Kontrola_pozytywna_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Kontrola_wszystkie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Kontrola_wszystkie_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Koszt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Koszty_za_material_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Koszty_za_material_produkt_suma.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Koszt_material_polprodukt_sztuka.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Koszt_material_polprodukt_sztuka_suma.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Koszt_material_produkt_sztuka.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Koszt_material_produkt_sztuka_suma.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Koszt_material_sztuka_suma.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Koszt_procesow_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Koszt_procesow_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Koszt_produkcji.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Koszt_roboczogodziny_stanowiska.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Kwota_za_materialy.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Kwota_za_materialy_bez_produktu.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Liczba_zabiegow_wytworczych_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Liczba_zabiegow_wytworczych_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Lista_silnikow.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Magazynowanie_pojazd.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Magazynowanie_pojazd_wybor.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Magazyn_czesci_wszystko.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Magazyn_maszyn_nieuzywane.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Magazyn_maszyn_stan.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Magazyn_maszyn_uzywane.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Magazyn_maszyn_wszystko.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Magazyn_material_aktualny.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Magazyn_material_aktualny_dodanie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Magazyn_material_przejsciowy.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Magazyn_material_wszystko.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Magazyn_narzedzia_nieuzywane.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Magazyn_narzedzia_nieuzywane_ID.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Magazyn_narzedzia_stan.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Magazyn_narzedzia_uzywane.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Magazyn_narzedzia_wszystko.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Magazyn_Produkty_Wytworzone.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Maszyna.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Maszyna_nr_seryjny.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Maszyny_numery_nieprzypisane.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Maszyny_numery_nieprzypisane_zero.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Maszyny_numery_porownanie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Maszyny_numery_przypisane.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Material.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Materialy_magazyn.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Materialy_z_zamowien.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Montaz.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Nr_seryjny_maszyna.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Nr_telefon_pracownik.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Obsluga_cmb.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Obsluga_cmb_wymiana.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Obsluga_pracownik.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Obslugi_w_trakcie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Obslugi_w_trakcie_wymiana.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Obslugi_zakonczone.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Obslugi_zakonczone_suma.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Parametry_czesc.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Parametry_maszyna.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Parametry_material.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Parametry_narzedzie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Parametry_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Parametry_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Pojazdy_modele.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Polprodukt_material.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Potrzebne_materialy.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Potrzebne_materialy_do_zamowienia.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Pracownik.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Pracownik_produkcja.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Proces_montaz.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Proces_montaz_kolejka.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Proces_montaz_wykonane.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Proces_montaz_wykonane1.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Proces_polprodukt_czynnosc.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Proces_polprodukt_czynnosc_projekt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Proces_produkt_czynnosc.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Proces_produkt_czynnosc_projekt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Proces_wytwarzanie_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Proces_wytwarzanie_polprodukt_ewidencja.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Proces_wytwarzanie_polprodukt_koszt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Proces_wytwarzanie_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Proces_wytwarzanie_produkt_ewidencja.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Proces_wytwarzanie_produkt_koszt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Produkt_material.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Przypisane_silniki.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Rodzaj_kontrola.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Rodzaj_parametr.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Sklad_maszyna.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Sklad_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Sklad_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Sklad_produkt_ewidencja.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Sklad_produkt_material.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Sklad_SP_maszyna.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Sklad_stanowisko_produkcyjne_maszyna.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Sklad_stanowisko_produkcyjne_maszyna_ID.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Sklad_stanowisko_produkcyjne_maszyna_montaz.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Sklad_stanowisko_produkcyjne_maszyna_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Sklad_stanowisko_produkcyjne_maszyna_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Sklad_stanowisko_produkcyjne_narzedzie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Sklad_stanowisko_produkcyjne_narzedzie_ID.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Slownik_stanowisko.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Srednia_cena_za_material.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Stanowiska_czynnosci1.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Stanowiska_do_uzycia.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Stanowiska_produkcyjne.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Stanowiska_w_uzyciu.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Stanowisko_produkcyjne.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Sumaryczny_czas_wytwarzania_produktu.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Szacowany_czas_realizacji_zamowienia.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Szacowany_czas_wytwarzania_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Szacowany_czas_wytwarzania_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Szacowany_koszt_maszyn_do_zamowienia.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Szeregowanie_zadan.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Szeregowanie_zadan_przed.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Sz_czas_proces_polprodukt_czynnosc.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Sz_czas_proces_produkt_czynnosc.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Tygodniowe_rozliczenie_pracy_produkcja.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Wersja_wyposazenia.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Wersja_wyposazenia_M.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Wersja_wyposazenia_pojazd.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Wersja_wyposazenia_pojazd_M.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Wersja_wyposazenia_pojazd_spis.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Wersja_wyposazenia_pojazd_standard.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Wersja_wyposazenia_standard.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Wybor_model.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Wybor_model1.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Wybor_model_typ.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Wybor_silnika.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Wybor_silnika2.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Wybor_silnika_zrobione.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Wynik_kontroli.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Wynik_kontroli_pojazd.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Wynik_kontroli_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Wytwarzanie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Wytwarzanie_grupowane.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Wytworzone_polprodukty.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Wytworzone_polprodukty_material.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Wytworzone_polprodukty_zamowienie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Wytworzone_produkty.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Wytworzone_produkty_sklad.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Wytworzone_produkty_zamowienie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Wytworzony_produkt_material.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienia_czesci_w_trakcie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienia_czesci_w_trakcie_bez_odebranych.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienia_czesci_w_trakcie_wszystko.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienia_czesc_status_zamowiono.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienia_czesc_status_zamowiono_zmiana_daty.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienia_maszyna_status_zamowiono.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienia_maszyna_status_zamowiono_zmiana_daty.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienia_maszyny_w_trakcie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienia_maszyny_w_trakcie_bez_odebranych.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienia_maszyny_w_trakcie_wszystko.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienia_materialy_w_trakcie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienia_materialy_w_trakcie_bez_odebranych.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienia_materialy_w_trakcie_wszystko.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienia_material_status_zamowiono.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienia_material_status_zamowiono_zmiana_daty.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienia_narzedzia_status_zamowiono.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienia_narzedzia_status_zamowiono_zmiana_daty.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienia_narzedzia_w_trakcie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienia_narzedzia_w_trakcie_bez_odebranych.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienia_narzedzia_w_trakcie_wszystko.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienie_montaz.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienie_pojazd.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienie_produkcja.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienie_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienie_szczegol.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienie_szczegol_pojazd.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienie_szczegol_produkcja.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienie_szczegol_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowienie_szczegol_produkt_koszta.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Zamowione_produkty.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Wersja_wyposazenia_pojazd.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Wersja_wyposazenia_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Wersja_wyposazenia_slownik.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Wyksztalcenie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Wytwarzanie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Zamowienie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Zamowienie_czesc.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Zamowienie_maszyna.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Zamowienie_material.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Zamowienie_narzedzie.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Zamowienie_polprodukt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Zamowienie_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Zamowienie_szczegol.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Zamowienie_szczegol_pojazd.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Zwrot_pojazd.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Zwrot_produkt.cs">
+      <DependentUpon>Firma_produkcyjna.tt</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormAlerty.resx">
+      <DependentUpon>FormAlerty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDodajAlert.resx">
+      <DependentUpon>FormDodajAlert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDodajJednostka.resx">
+      <DependentUpon>FormDodajJednostka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDodajParametr.resx">
+      <DependentUpon>FormDodajParametr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKlient.resx">
+      <DependentUpon>FormKlient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKontrolaJakosciPolprodukt.resx">
+      <DependentUpon>FormKontrolaJakosciPolprodukt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKontrolaJakosciProdukt.resx">
+      <DependentUpon>FormKontrolaJakosciProdukt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKontrolaPojazd.resx">
+      <DependentUpon>FormKontrolaPojazd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMagazynPojazd.resx">
+      <DependentUpon>FormMagazynPojazd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMarka.resx">
+      <DependentUpon>FormMarka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMarkaModel.resx">
+      <DependentUpon>FormMarkaModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormModel.resx">
+      <DependentUpon>FormModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMontaz.resx">
+      <DependentUpon>FormMontaz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNowyPojazd.resx">
+      <DependentUpon>FormNowyPojazd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormParametrPolprodukt.resx">
+      <DependentUpon>FormParametrPolprodukt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormParametrProdukt.resx">
+      <DependentUpon>FormParametrProdukt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPojazdCzynnosc.resx">
+      <DependentUpon>FormPojazdCzynnosc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPojazdSilnik.resx">
+      <DependentUpon>FormPojazdSilnik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWyposazenie.resx">
+      <DependentUpon>FormWyposazenie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProdukt.resx">
+      <DependentUpon>FormProdukt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSkladPolprodukt.resx">
+      <DependentUpon>FormSkladPolprodukt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSkladProdukt.resx">
+      <DependentUpon>FormSkladProdukt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSkladProduktMaterial.resx">
+      <DependentUpon>FormSkladProduktMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSkladStanowisko.resx">
+      <DependentUpon>FormSkladStanowisko.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSlownikStanowisko.resx">
+      <DependentUpon>FormSlownikStanowisko.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSzeregowanie.resx">
+      <DependentUpon>FormSzeregowanie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTyp.resx">
+      <DependentUpon>FormTyp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTypModel.resx">
+      <DependentUpon>FormTypModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTypSilnik.resx">
+      <DependentUpon>FormTypSilnik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWyposazenieProdukt.resx">
+      <DependentUpon>FormWyposazenieProdukt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWytwarzanie.resx">
+      <DependentUpon>FormWytwarzanie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormZamowienie.resx">
+      <DependentUpon>FormZamowienie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormZamowienieProdukt.resx">
+      <DependentUpon>FormZamowienieProdukt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormZamowienieProduktSzczegol.resx">
+      <DependentUpon>FormZamowienieProduktSzczegol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormZamowienieSzczegol.resx">
+      <DependentUpon>FormZamowienieSzczegol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start.resx">
+      <DependentUpon>Start.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EntityDeploy Include="Firma_produkcyjna.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Firma_produkcyjna.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Firma_produkcyjna.edmx.diagram">
+      <DependentUpon>Firma_produkcyjna.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Firma_produkcyjna.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Firma_produkcyjna.edmx</DependentUpon>
+      <LastGenOutput>Firma_produkcyjna.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Firma_produkcyjna.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Firma_produkcyjna.edmx</DependentUpon>
+      <LastGenOutput>Firma_produkcyjna.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

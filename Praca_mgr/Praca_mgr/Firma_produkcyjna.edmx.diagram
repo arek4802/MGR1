@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9678afd01ff74607b26fc0696ab106fd" Name="Diagram1">
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Alert" Width="1.5" PointX="12" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Czesc" Width="1.5" PointX="11.25" PointY="28.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Czynnosc_produkcyjna" Width="1.5" PointX="12" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Dane_adresowe_pracownik" Width="1.5" PointX="5.25" PointY="51.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Dostawca" Width="1.5" PointX="6" PointY="34.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Dzial" Width="1.5" PointX="9.75" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Email_pracownik" Width="1.5" PointX="5.25" PointY="54.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Gwarancja" Width="1.5" PointX="14.25" PointY="66.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Jednostka" Width="1.5" PointX="9.75" PointY="80.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Klient" Width="1.5" PointX="12" PointY="72.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Kontrola_jakosci_pojazd" Width="1.5" PointX="8.25" PointY="54.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Kontrola_jakosci_polprodukt" Width="1.5" PointX="5.25" PointY="58" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Kontrola_jakosci_produkt" Width="1.5" PointX="8.25" PointY="50" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Kontrola_parametr_polprodukt" Width="1.5" PointX="10.5" PointY="66.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Kontrola_parametr_produkt" Width="1.5" PointX="16.5" PointY="52.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Magazynowanie_slownik" Width="1.5" PointX="0.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Marka_model" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Marka_model_pojazd" Width="1.5" PointX="19.5" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Marka_pojazd_slownik" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Maszyna" Width="1.5" PointX="5.25" PointY="38.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Maszyna_nr_seryjny" Width="1.5" PointX="16.5" PointY="30.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Material" Width="1.5" PointX="5.25" PointY="70.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Miejsce_magazynowanie_pojazd" Width="1.5" PointX="19.5" PointY="40.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Miejsce_magazynowanie_polprodukt" Width="1.5" PointX="14.25" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Miejsce_magazynowanie_produkt" Width="1.5" PointX="16.5" PointY="37.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Model_pojazd_slownik" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Montaz_pojazd" Width="1.5" PointX="8.25" PointY="58.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Narzedzie" Width="1.5" PointX="8.25" PointY="35.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Nieobecnosc" Width="1.5" PointX="11.25" PointY="54.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Nr_seryjny" Width="1.5" PointX="14.25" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Nr_telefon_pracownik" Width="1.5" PointX="5.25" PointY="75.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Obsluga" Width="1.5" PointX="9" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Obsluga_pracownik" Width="1.5" PointX="11.25" PointY="51.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Parametr_czesc" Width="1.5" PointX="22.25" PointY="64.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Parametr_maszyna" Width="1.5" PointX="19.25" PointY="58.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Parametr_material" Width="1.5" PointX="17.25" PointY="76.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Parametr_narzedzie" Width="1.5" PointX="19.25" PointY="55" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Parametr_polprodukt" Width="1.5" PointX="8.25" PointY="77.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Parametr_poziom_magazynowanie" Width="1.5" PointX="22.25" PointY="46.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Parametr_produkt" Width="1.5" PointX="14.25" PointY="80.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Parametr_typ_magazynowania" Width="1.5" PointX="19.25" PointY="45" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Pojazd" Width="1.5" PointX="17.25" PointY="69.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Poziom_magazynowanie" Width="1.5" PointX="3" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Pracownik" Width="1.5" PointX="3" PointY="51.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Proces_montaz_pojazd" Width="1.5" PointX="16.5" PointY="58.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Proces_montaz_pojazd_czynnosc" Width="1.5" PointX="14.25" PointY="74.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Proces_polprodukt_czynnosc" Width="1.5" PointX="14.25" PointY="34.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Proces_produkt_czynnosc" Width="1.5" PointX="14.25" PointY="23.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Proces_wytwarzanie_polprodukt" Width="1.5" PointX="16.5" PointY="46.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Proces_wytwarzanie_produkt" Width="1.5" PointX="16.5" PointY="43.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Producent" Width="1.5" PointX="8.25" PointY="31.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Produkt" Width="1.5" PointX="14.25" PointY="69" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Reklamacja_pojazd" Width="1.5" PointX="11.25" PointY="58.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Reklamacja_produkt" Width="1.5" PointX="5.25" PointY="47.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Rodzaj_czesc" Width="1.5" PointX="9" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Rodzaj_kontrola" Width="1.5" PointX="6" PointY="26.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Rodzaj_maszyna" Width="1.5" PointX="3" PointY="38.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Rodzaj_material" Width="1.5" PointX="3" PointY="70.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Rodzaj_nieobecnosci" Width="1.5" PointX="9" PointY="74.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Rodzaj_obsluga" Width="1.5" PointX="6.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Rodzaj_parametr" Width="1.5" PointX="12" PointY="79.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Rodzaj_szkolenie" Width="1.5" PointX="12" PointY="84.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Rodzaj_umowy" Width="1.5" PointX="17.25" PointY="40.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Sklad_maszyna" Width="1.5" PointX="14.5" PointY="27.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Sklad_polprodukt" Width="1.5" PointX="22.25" PointY="61.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Sklad_produkt" Width="1.5" PointX="22.5" PointY="52.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Sklad_produkt_material" Width="1.5" PointX="16.5" PointY="72.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Sklad_stanowisko_produkcyjne_maszyna" Width="1.5" PointX="18.75" PointY="27.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Sklad_stanowisko_produkcyjne_narzedzie" Width="1.5" PointX="19.25" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Slownik_polprodukt" Width="1.5" PointX="12" PointY="34.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Slownik_stanowisko" Width="1.5" PointX="9.75" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Stan_realizacji_zamowienie_czesc" Width="1.5" PointX="11.25" PointY="48.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Stan_realizacji_zamowienie_maszyna" Width="1.5" PointX="5.25" PointY="62.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Stan_realizacji_zamowienie_material" Width="1.5" PointX="8.25" PointY="46.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Stan_realizacji_zamowienie_narzedzie" Width="1.5" PointX="8.25" PointY="62.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Stan_realizacji_zamowienie_polprodukt" Width="1.5" PointX="11.25" PointY="62.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Stan_realizacji_zamowienie_produkt" Width="1.5" PointX="14.25" PointY="54.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Stanowisko" Width="1.5" PointX="12" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Stanowisko_pracownik" Width="1.5" PointX="14.25" PointY="50.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Stanowisko_produkcyjne" Width="1.5" PointX="12" PointY="24.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Status_zamowienie" Width="1.5" PointX="6" PointY="30.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Szczegol_reklamacja_pojazd" Width="1.5" PointX="16.5" PointY="55.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Szczegol_reklamacja_produkt" Width="1.5" PointX="16.5" PointY="49.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Szczegoly_zamowienie_czesc" Width="1.5" PointX="13.5" PointY="42.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Szczegoly_zamowienie_maszyna" Width="1.5" PointX="7.5" PointY="38.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Szczegoly_zamowienie_material" Width="1.5" PointX="7.5" PointY="70.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Szczegoly_zamowienie_narzedzie" Width="1.5" PointX="10.5" PointY="40.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Szczegoly_zamowienie_polprodukt" Width="1.5" PointX="10.5" PointY="69.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Szczegoly_zamowienie_produkt" Width="1.5" PointX="24" PointY="57.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Szkolenie_pracownik" Width="1.5" PointX="14.25" PointY="58.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Typ_pojazd_model" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Typ_pojazd_model_silnik" Width="1.5" PointX="16.5" PointY="34" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Typ_pojazd_slownik" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Typ_reklamacja" Width="1.5" PointX="14.25" PointY="30.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Typ_zamowienie" Width="1.5" PointX="12" PointY="76.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Umowa" Width="1.5" PointX="19.5" PointY="50.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Wersja_wyposazenia_pojazd" Width="1.5" PointX="22.5" PointY="39.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Wersja_wyposazenia_produkt" Width="1.5" PointX="19.5" PointY="33.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Wersja_wyposazenia_slownik" Width="1.5" PointX="5.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Wyksztalcenie" Width="1.5" PointX="0.75" PointY="54.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Wytwarzanie" Width="1.5" PointX="14.25" PointY="46" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Zamowienie" Width="1.5" PointX="14.25" PointY="61.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Zamowienie_czesc" Width="1.5" PointX="11.25" PointY="44.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Zamowienie_maszyna" Width="1.5" PointX="5.25" PointY="43.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Zamowienie_material" Width="1.5" PointX="5.25" PointY="66.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Zamowienie_narzedzie" Width="1.5" PointX="8.25" PointY="42.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Zamowienie_polprodukt" Width="1.5" PointX="8.25" PointY="66.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Zamowienie_produkt" Width="1.5" PointX="21.75" PointY="57" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Zamowienie_szczegol" Width="1.5" PointX="16.5" PointY="65.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Zamowienie_szczegol_pojazd" Width="1.5" PointX="19.5" PointY="62" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Zwrot_pojazd" Width="1.5" PointX="16.5" PointY="61.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.Zwrot_produkt" Width="1.5" PointX="13.5" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Aktualny_stan_magazyn" Width="1.5" PointX="2.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Alerty_ProductionDepartment" Width="1.5" PointX="7.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Alerty_ProductionDepartment_nieodczytane" Width="1.5" PointX="7.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Alerty_ResorceDepartment_nieodczytane" Width="1.5" PointX="7.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Alerty_ResourceDepartment" Width="1.5" PointX="9.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Brakujacy_material" Width="1.5" PointX="9.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Calkowity_koszt_zamowienia" Width="1.5" PointX="9.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Czas_drukowanie_produktow_do_zamowien" Width="1.5" PointX="7.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Czas_po_szeregowaniu" Width="1.5" PointX="9.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Czas_przed_szeregowaniem" Width="1.5" PointX="11.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Czas_wytwarzanie_polprodukt" Width="1.5" PointX="11.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Czas_wytwarzanie_produkt" Width="1.5" PointX="11.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Czesci" Width="1.5" PointX="11.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Czynnosc_produkcyjna" Width="1.5" PointX="5.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Dane_adresowe_pracownik" Width="1.5" PointX="7.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Email_pracownik" Width="1.5" PointX="13.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Ilosc_kontrola_pozytywna" Width="1.5" PointX="13.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Ilosc_kontrola_pozytywna_pojazd" Width="1.5" PointX="13.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Ilosc_kontrola_pozytywna_polprodukt" Width="1.5" PointX="13.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Kontrola_jakosci_kolejka" Width="1.5" PointX="0.75" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Kontrola_jakosci_kolejka_polprodukt" Width="1.5" PointX="2.75" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Kontrola_jakosci_pojazd" Width="1.5" PointX="14.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Kontrola_jakosci_pojazd_kolejka" Width="1.5" PointX="15.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Kontrola_jakosci_polprodukt" Width="1.5" PointX="15.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Kontrola_jakosci_produkt" Width="1.5" PointX="4.75" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Kontrola_negatywna" Width="1.5" PointX="15.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Kontrola_negatywna_polprodukt" Width="1.5" PointX="15.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Kontrola_parametr_polprodukt" Width="1.5" PointX="16.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Kontrola_parametr_produkt" Width="1.5" PointX="17.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Kontrola_pozytywna" Width="1.5" PointX="6.75" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Kontrola_pozytywna_pojazd" Width="1.5" PointX="0.75" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Kontrola_pozytywna_polprodukt" Width="1.5" PointX="17.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Kontrola_wszystkie" Width="1.5" PointX="17.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Kontrola_wszystkie_polprodukt" Width="1.5" PointX="16.75" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Koszt" Width="1.5" PointX="2.75" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Koszt_material_polprodukt_sztuka" Width="1.5" PointX="18.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Koszt_material_polprodukt_sztuka_suma" Width="1.5" PointX="18.75" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Koszt_material_produkt_sztuka" Width="1.5" PointX="18.75" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Koszt_material_produkt_sztuka_suma" Width="1.5" PointX="19.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Koszt_material_sztuka_suma" Width="1.5" PointX="19.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Koszt_procesow_polprodukt" Width="1.5" PointX="19.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Koszt_procesow_produkt" Width="1.5" PointX="20.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Koszt_produkcji" Width="1.5" PointX="20.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Koszt_roboczogodziny_stanowiska" Width="1.5" PointX="20.75" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Koszty_za_material_produkt" Width="1.5" PointX="16.75" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Koszty_za_material_produkt_suma" Width="1.5" PointX="20.75" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Kwota_za_materialy" Width="1.5" PointX="21.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Kwota_za_materialy_bez_produktu" Width="1.5" PointX="0.75" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Liczba_zabiegow_wytworczych_polprodukt" Width="1.5" PointX="2.75" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Liczba_zabiegow_wytworczych_produkt" Width="1.5" PointX="21.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Lista_silnikow" Width="1.5" PointX="21.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Magazyn_czesci_wszystko" Width="1.5" PointX="18.75" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Magazyn_maszyn_nieuzywane" Width="1.5" PointX="20.75" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Magazyn_maszyn_stan" Width="1.5" PointX="22.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Magazyn_maszyn_uzywane" Width="1.5" PointX="22.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Magazyn_maszyn_wszystko" Width="1.5" PointX="22.75" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Magazyn_material_aktualny" Width="1.5" PointX="22.75" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Magazyn_material_aktualny_dodanie" Width="1.5" PointX="22.75" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Magazyn_material_przejsciowy" Width="1.5" PointX="23.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Magazyn_material_wszystko" Width="1.5" PointX="23.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Magazyn_narzedzia_nieuzywane" Width="1.5" PointX="23.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Magazyn_narzedzia_nieuzywane_ID" Width="1.5" PointX="0.75" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Magazyn_narzedzia_stan" Width="1.5" PointX="2.75" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Magazyn_narzedzia_uzywane" Width="1.5" PointX="24.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Magazyn_narzedzia_wszystko" Width="1.5" PointX="24.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Magazyn_Produkty_Wytworzone" Width="1.5" PointX="24.75" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Magazynowanie_pojazd" Width="1.5" PointX="24.75" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Magazynowanie_pojazd_wybor" Width="1.5" PointX="20.75" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Maszyna" Width="1.5" PointX="24.75" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Maszyna_nr_seryjny" Width="1.5" PointX="22.75" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Maszyny_numery_nieprzypisane" Width="1.5" PointX="24.75" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Maszyny_numery_nieprzypisane_zero" Width="1.5" PointX="25.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Maszyny_numery_porownanie" Width="1.5" PointX="25.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Maszyny_numery_przypisane" Width="1.5" PointX="25.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Material" Width="1.5" PointX="26.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Materialy_magazyn" Width="1.5" PointX="26.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Materialy_z_zamowien" Width="1.5" PointX="26.75" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Montaz" Width="1.5" PointX="26.75" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Nr_seryjny_maszyna" Width="1.5" PointX="26.75" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Nr_telefon_pracownik" Width="1.5" PointX="26.75" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Obsluga_cmb" Width="1.5" PointX="27.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Obsluga_cmb_wymiana" Width="1.5" PointX="0.75" PointY="29.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Obsluga_pracownik" Width="1.5" PointX="2.75" PointY="29.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Obslugi_w_trakcie" Width="1.5" PointX="27.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Obslugi_w_trakcie_wymiana" Width="1.5" PointX="27.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Obslugi_zakonczone" Width="1.5" PointX="21.75" PointY="29.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Obslugi_zakonczone_suma" Width="1.5" PointX="23.75" PointY="29.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Parametry_czesc" Width="1.5" PointX="25.75" PointY="29.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Parametry_maszyna" Width="1.5" PointX="27.75" PointY="29.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Parametry_material" Width="1.5" PointX="28.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Parametry_narzedzie" Width="1.5" PointX="28.75" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Parametry_polprodukt" Width="1.5" PointX="28.75" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Parametry_produkt" Width="1.5" PointX="28.75" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Pojazdy_modele" Width="1.5" PointX="29.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Polprodukt_material" Width="1.5" PointX="29.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Potrzebne_materialy" Width="1.5" PointX="29.75" PointY="27.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Potrzebne_materialy_do_zamowienia" Width="1.5" PointX="29.75" PointY="30.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Pracownik" Width="1.5" PointX="0.75" PointY="32.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Pracownik_produkcja" Width="1.5" PointX="2.75" PointY="32.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Proces_montaz" Width="1.5" PointX="30.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Proces_montaz_kolejka" Width="1.5" PointX="30.75" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Proces_montaz_wykonane" Width="1.5" PointX="30.75" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Proces_montaz_wykonane1" Width="1.5" PointX="30.75" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Proces_polprodukt_czynnosc" Width="1.5" PointX="30.75" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Proces_polprodukt_czynnosc_projekt" Width="1.5" PointX="21.75" PointY="32.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Proces_produkt_czynnosc" Width="1.5" PointX="31.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Proces_produkt_czynnosc_projekt" Width="1.5" PointX="31.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Proces_wytwarzanie_polprodukt" Width="1.5" PointX="31.75" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Proces_wytwarzanie_polprodukt_ewidencja" Width="1.5" PointX="23.75" PointY="33.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Proces_wytwarzanie_polprodukt_koszt" Width="1.5" PointX="25.75" PointY="33.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Proces_wytwarzanie_produkt" Width="1.5" PointX="31.75" PointY="29.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Proces_wytwarzanie_produkt_ewidencja" Width="1.5" PointX="27.75" PointY="33.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Proces_wytwarzanie_produkt_koszt" Width="1.5" PointX="29.75" PointY="33.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Produkt_material" Width="1.5" PointX="31.75" PointY="33.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Przypisane_silniki" Width="1.5" PointX="32.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Rodzaj_kontrola" Width="1.5" PointX="32.75" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Rodzaj_parametr" Width="1.5" PointX="10.75" PointY="32.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Sklad_maszyna" Width="1.5" PointX="32.75" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Sklad_polprodukt" Width="1.5" PointX="32.75" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Sklad_produkt" Width="1.5" PointX="32.75" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Sklad_produkt_ewidencja" Width="1.5" PointX="33.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Sklad_produkt_material" Width="1.5" PointX="2.75" PointY="35.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Sklad_SP_maszyna" Width="1.5" PointX="33.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Sklad_stanowisko_produkcyjne_maszyna" Width="1.5" PointX="33.75" PointY="24.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Sklad_stanowisko_produkcyjne_maszyna_ID" Width="1.5" PointX="33.75" PointY="27.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Sklad_stanowisko_produkcyjne_maszyna_montaz" Width="1.5" PointX="33.75" PointY="31.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Sklad_stanowisko_produkcyjne_maszyna_polprodukt" Width="1.5" PointX="33.75" PointY="34.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Sklad_stanowisko_produkcyjne_maszyna_produkt" Width="1.5" PointX="34.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Sklad_stanowisko_produkcyjne_narzedzie" Width="1.5" PointX="34.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Sklad_stanowisko_produkcyjne_narzedzie_ID" Width="1.5" PointX="34.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Slownik_stanowisko" Width="1.5" PointX="34.75" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Srednia_cena_za_material" Width="1.5" PointX="34.75" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Stanowiska_czynnosci1" Width="1.5" PointX="35.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Stanowiska_do_uzycia" Width="1.5" PointX="35.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Stanowiska_produkcyjne" Width="1.5" PointX="35.75" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Stanowiska_w_uzyciu" Width="1.5" PointX="21.75" PointY="37.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Stanowisko_produkcyjne" Width="1.5" PointX="23.75" PointY="37.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Sumaryczny_czas_wytwarzania_produktu" Width="1.5" PointX="35.75" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Sz_czas_proces_polprodukt_czynnosc" Width="1.5" PointX="25.75" PointY="37.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Sz_czas_proces_produkt_czynnosc" Width="1.5" PointX="35.75" PointY="29.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Szacowany_czas_realizacji_zamowienia" Width="1.5" PointX="27.75" PointY="37.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Szacowany_czas_wytwarzania_polprodukt" Width="1.5" PointX="29.75" PointY="37.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Szacowany_czas_wytwarzania_produkt" Width="1.5" PointX="35.75" PointY="32.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Szacowany_koszt_maszyn_do_zamowienia" Width="1.5" PointX="31.75" PointY="37.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Szeregowanie_zadan" Width="1.5" PointX="35.75" PointY="35.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Szeregowanie_zadan_przed" Width="1.5" PointX="36.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Tygodniowe_rozliczenie_pracy_produkcja" Width="1.5" PointX="36.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Wersja_wyposazenia" Width="1.5" PointX="36.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Wersja_wyposazenia_M" Width="1.5" PointX="36.75" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Wersja_wyposazenia_pojazd" Width="1.5" PointX="36.75" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Wersja_wyposazenia_pojazd_M" Width="1.5" PointX="33.75" PointY="38.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Wersja_wyposazenia_pojazd_spis" Width="1.5" PointX="35.75" PointY="38.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Wersja_wyposazenia_pojazd_standard" Width="1.5" PointX="37.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Wersja_wyposazenia_standard" Width="1.5" PointX="37.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Wybor_model" Width="1.5" PointX="9.75" PointY="38.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Wybor_model_typ" Width="1.5" PointX="37.75" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Wybor_model1" Width="1.5" PointX="37.75" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Wybor_silnika" Width="1.5" PointX="37.75" PointY="29.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Wybor_silnika_zrobione" Width="1.5" PointX="37.75" PointY="32.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Wybor_silnika2" Width="1.5" PointX="37.75" PointY="36.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Wynik_kontroli" Width="1.5" PointX="37.75" PointY="39.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Wynik_kontroli_pojazd" Width="1.5" PointX="38.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Wynik_kontroli_polprodukt" Width="1.5" PointX="38.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Wytwarzanie" Width="1.5" PointX="38.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Wytwarzanie_grupowane" Width="1.5" PointX="38.75" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Wytworzone_polprodukty" Width="1.5" PointX="38.75" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Wytworzone_polprodukty_material" Width="1.5" PointX="24.75" PointY="40.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Wytworzone_polprodukty_zamowienie" Width="1.5" PointX="26.75" PointY="40.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Wytworzone_produkty" Width="1.5" PointX="28.75" PointY="40.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Wytworzone_produkty_sklad" Width="1.5" PointX="30.75" PointY="40.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Wytworzone_produkty_zamowienie" Width="1.5" PointX="39.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Wytworzony_produkt_material" Width="1.5" PointX="39.75" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienia_czesc_status_zamowiono" Width="1.5" PointX="39.75" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienia_czesc_status_zamowiono_zmiana_daty" Width="1.5" PointX="39.75" PointY="30.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienia_czesci_w_trakcie" Width="1.5" PointX="39.75" PointY="33.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienia_czesci_w_trakcie_bez_odebranych" Width="1.5" PointX="32.75" PointY="41.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienia_czesci_w_trakcie_wszystko" Width="1.5" PointX="34.75" PointY="41.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienia_maszyna_status_zamowiono" Width="1.5" PointX="39.75" PointY="37.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienia_maszyna_status_zamowiono_zmiana_daty" Width="1.5" PointX="39.75" PointY="41.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienia_maszyny_w_trakcie" Width="1.5" PointX="0.75" PointY="42.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienia_maszyny_w_trakcie_bez_odebranych" Width="1.5" PointX="40.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienia_maszyny_w_trakcie_wszystko" Width="1.5" PointX="40.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienia_material_status_zamowiono" Width="1.5" PointX="40.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienia_material_status_zamowiono_zmiana_daty" Width="1.5" PointX="40.75" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienia_materialy_w_trakcie" Width="1.5" PointX="36.75" PointY="42.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienia_materialy_w_trakcie_bez_odebranych" Width="1.5" PointX="41.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienia_materialy_w_trakcie_wszystko" Width="1.5" PointX="41.75" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienia_narzedzia_status_zamowiono" Width="1.5" PointX="41.75" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienia_narzedzia_status_zamowiono_zmiana_daty" Width="1.5" PointX="21.75" PointY="43.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienia_narzedzia_w_trakcie" Width="1.5" PointX="23.75" PointY="43.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienia_narzedzia_w_trakcie_bez_odebranych" Width="1.5" PointX="41.75" PointY="29.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienia_narzedzia_w_trakcie_wszystko" Width="1.5" PointX="41.75" PointY="33.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienie" Width="1.5" PointX="41.75" PointY="37.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienie_montaz" Width="1.5" PointX="41.75" PointY="41.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienie_pojazd" Width="1.5" PointX="42.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienie_produkcja" Width="1.5" PointX="42.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienie_produkt" Width="1.5" PointX="42.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienie_szczegol" Width="1.5" PointX="42.75" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienie_szczegol_pojazd" Width="1.5" PointX="25.75" PointY="44.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienie_szczegol_produkcja" Width="1.5" PointX="27.75" PointY="44.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienie_szczegol_produkt" Width="1.5" PointX="29.75" PointY="44.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowienie_szczegol_produkt_koszta" Width="1.5" PointX="38.75" PointY="44.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Firma_produkcyjnaModel.v_Zamowione_produkty" Width="1.5" PointX="40.75" PointY="44.125" IsExpanded="true" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Alert__ID_dzial__27F8EE98" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Czesc__ID_rodzaj__151B244E" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Parametr___ID_cz__5CA1C101" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Sklad_mas__ID_cz__44CA3770" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Szczegoly__ID_cz__09746778" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Proces_mo__ID_cz__6319B466" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Proces_po__ID_cz__01142BA1" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Proces_pr__ID_cz__05D8E0BE" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Dane_adre__ID_pr__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zamowieni__ID_do__00DF2177" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zamowieni__ID_do__0E391C95" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zamowieni__ID_do__1B9317B3" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zamowieni__ID_do__52E34C9D" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zamowieni__ID_do__634EBE90" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zamowieni__ID_do__74794A92" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Stanowisk__ID_dz__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Email_pra__ID_pr__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zamowieni__ID_gw__245D67DE" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zamowieni__ID_gw__4E1E9780" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Rodzaj_pa__ID_je__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zamowieni__ID_kl__1DB06A4F" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Kontrola___ID_mo__6ABAD62E" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Kontrola___ID_pr__6BAEFA67" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Kontrola___ID_ro__6CA31EA0" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Kontrola___ID_ko__40058253" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Kontrola___ID_pr__3864608B" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Kontrola___ID_ro__395884C4" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Kontrola___ID_wy__37703C52" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Kontrola___ID_ko__3C34F16F" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Kontrola___ID_pr__339FAB6E" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Kontrola___ID_ro__3493CFA7" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Kontrola___ID_wy__32AB8735" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Kontrola___ID_pa__40F9A68C" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Kontrola___ID_pa__3D2915A8" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Parametr___ID_ma__0C1BC9F9" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Poziom_ma__ID_ma__0FEC5ADD" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Marka_mod__ID_ma__2EA5EC27" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Marka_mod__ID_mo__2F9A1060" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Typ_pojaz__ID_ma__373B3228" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Marka_mod__ID_po__3BFFE745" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Marka_mod__ID_ty__3B0BC30C" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Maszyna__ID_rodz__76969D2E" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Maszyna_n__ID_ma__797309D9" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Parametr___ID_ma__58D1301D" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Sklad_mas__ID_ma__43D61337" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Szczegoly__ID_ma__16CE6296" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Maszyna_n__ID_nr__7A672E12" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Sklad_sta__ID_ma__0C85DE4D" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Material__ID_rod__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Parametr___ID_ma__51300E55" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Sklad_pol__ID_ma__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Sklad_pro__ID_ma__6B24EA82" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Szczegoly__ID_ma__6FB49575" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Miejsce_m__ID_po__1E3A7A34" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Miejsce_m__ID_po__1F2E9E6D" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Miejsce_m__ID_po__1A69E950" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Miejsce_m__ID_po__1B5E0D89" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Miejsce_m__ID_po__1699586C" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Miejsce_m__ID_pr__178D7CA5" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Montaz_po__ID_pr__5E54FF49" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Montaz_po__ID_za__5F492382" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Proces_mo__ID_mo__66EA454A" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Parametr___ID_na__55009F39" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Sklad_sta__ID_na__10566F31" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Szczegoly__ID_na__24285DB4" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Nieobecno__ID_pr__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Nieobecno__ID_ro__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Nr_telefo__ID_pr__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Obsluga__ID_rodz__498EEC8D" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Obsluga__ID_stan__4A8310C6" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Obsluga_p__ID_ob__4D5F7D71" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Obsluga_p__ID_pr__4E53A1AA" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Parametr___ID_ro__5D95E53A" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Parametr___ID_ro__59C55456" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Parametr___ID_ro__5224328E" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Parametr___ID_ro__55F4C372" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Parametr___ID_po__628FA481" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Parametr___ID_ro__6383C8BA" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Parametr___ID_po__12C8C788" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Parametr___ID_ro__13BCEBC1" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Parametr___ID_pr__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Parametr___ID_ro__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Parametr___ID_ro__0D0FEE32" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Proces_mo__ID_po__6225902D" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Szczegol___ID_po__7720AD13" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Wersja_wy__ID_po__4959E263" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zamowieni__ID_po__4D2A7347" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zwrot_poj__ID_po__7AF13DF7" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Pracownik__ID_wy__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Reklamacj__ID_pr__7167D3BD" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Reklamacj__ID_pr__7DCDAAA2" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Stan_real__ID_pr__05A3D694" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Stan_real__ID_pr__12FDD1B2" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Stan_real__ID_pr__2057CCD0" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Stan_real__ID_pr__57A801BA" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Stan_real__ID_pr__69FBBC1F" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Stan_real__ID_pr__793DFFAF" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Stanowisk__ID_pr__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Szkolenie__ID_pr__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Wytwarzan__ID_pr__2739D489" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zamowieni__ID_pr__0D44F85C" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zamowieni__ID_pr__1A9EF37A" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zamowieni__ID_pr__1EA48E88" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zamowieni__ID_pr__50FB042B" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zamowieni__ID_pr__625A9A57" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zamowieni__ID_pr__73852659" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zamowieni__ID_pr__7FEAFD3E" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Proces_mo__ID_pr__67DE6983" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Proces_mo__ID_st__640DD89F" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Proces_po__ID_po__00200768" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Proces_po__ID_st__02084FDA" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Proces_wy__ID_pr__2FCF1A8A" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Proces_pr__ID_pr__04E4BC85" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Proces_pr__ID_st__06CD04F7" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Proces_wy__ID_pr__2BFE89A6" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Proces_wy__ID_wy__2EDAF651" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Proces_wy__ID_wy__2B0A656D" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Szczegoly__ID_pr__0A688BB1" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Szczegoly__ID_pr__17C286CF" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Szczegoly__ID_pr__251C81ED" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Szczegoly__ID_pr__70A8B9AE" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Sklad_pro__ID_pr__66603565" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Sklad_pro__ID_pr__6A30C649" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Szczegol___ID_pr__038683F8" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Szczegoly__ID_pr__5B78929E" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Typ_pojaz__ID_pr__3FD07829" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Wersja_wy__ID_pr__4589517F" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zamowieni__ID_pr__236943A5" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zwrot_pro__ID_pr__075714DC" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Reklamacj__ID_za__725BF7F6" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Szczegol___ID_re__753864A1" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zwrot_poj__ID_re__79FD19BE" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Reklamacj__ID_za__7EC1CEDB" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Szczegol___ID_re__019E3B86" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zwrot_pro__ID_re__0662F0A3" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Szkolenie__ID_ro__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Umowa__ID_rodzaj__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Sklad_pol__ID_po__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Sklad_pro__ID_po__6754599E" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Sklad_sta__ID_st__0B91BA14" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Sklad_sta__ID_st__0F624AF8" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Szczegoly__ID_po__7D0E9093" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Stanowisk__ID_na__7D439ABD" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Stan_real__ID_st__04AFB25B" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Stan_real__ID_za__03BB8E22" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Stan_real__ID_st__1209AD79" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Stan_real__ID_za__11158940" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Stan_real__ID_st__690797E6" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Stan_real__ID_za__681373AD" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Stan_real__ID_st__1F63A897" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Stan_real__ID_za__1E6F845E" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Stan_real__ID_st__7849DB76" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Stan_real__ID_za__7755B73D" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Stan_real__ID_st__56B3DD81" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Stan_real__ID_za__55BFB948" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Stanowisk__ID_st__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Umowa__ID_stanow__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Szczegol___ID_ty__762C88DA" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Szczegol___ID_ty__02925FBF" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Szczegoly__ID_za__0880433F" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Szczegoly__ID_za__15DA3E5D" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Szczegoly__ID_za__6EC0713C" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Szczegoly__ID_za__2334397B" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Szczegoly__ID_za__7C1A6C5A" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Szczegoly__ID_za__5A846E65" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Typ_pojaz__ID_ty__382F5661" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Typ_pojaz__ID_ty__3EDC53F0" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zamowieni__ID_ty__1F98B2C1" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Wersja_wy__ID_we__4865BE2A" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Wersja_wy__ID_we__44952D46" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Wytwarzan__ID_za__282DF8C2" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zamowieni__ID_za__22751F6C" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zamowieni__ID_za__4C364F0E" ManuallyRouted="false" />
+        <AssociationConnector Association="Firma_produkcyjnaModel.FK__Zamowieni__ID_za__51EF2864" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

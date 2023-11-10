@@ -1,0 +1,1778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Firma_produkcyjnaModelStoreContainer" CdmEntityContainer="Firma_produkcyjnaEntities">
+    <EntitySetMapping Name="Alert">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Alert">
+        <MappingFragment StoreEntitySet="Alert">
+          <ScalarProperty Name="ID_alert" ColumnName="ID_alert" />
+          <ScalarProperty Name="ID_dzial" ColumnName="ID_dzial" />
+          <ScalarProperty Name="Tresc" ColumnName="Tresc" />
+          <ScalarProperty Name="Czy_odczytano" ColumnName="Czy_odczytano" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Czesc">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Czesc">
+        <MappingFragment StoreEntitySet="Czesc">
+          <ScalarProperty Name="ID_czesc" ColumnName="ID_czesc" />
+          <ScalarProperty Name="Nazwa_czesc" ColumnName="Nazwa_czesc" />
+          <ScalarProperty Name="ID_rodzaj_czesc" ColumnName="ID_rodzaj_czesc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Czynnosc_produkcyjna">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Czynnosc_produkcyjna">
+        <MappingFragment StoreEntitySet="Czynnosc_produkcyjna">
+          <ScalarProperty Name="ID_czynnosc_produkcyjna" ColumnName="ID_czynnosc_produkcyjna" />
+          <ScalarProperty Name="Nazwa" ColumnName="Nazwa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dane_adresowe_pracownik">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Dane_adresowe_pracownik">
+        <MappingFragment StoreEntitySet="Dane_adresowe_pracownik">
+          <ScalarProperty Name="ID_dane_adresowe_pracownik" ColumnName="ID_dane_adresowe_pracownik" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+          <ScalarProperty Name="Miejscowosc" ColumnName="Miejscowosc" />
+          <ScalarProperty Name="Ulica" ColumnName="Ulica" />
+          <ScalarProperty Name="Nr_budynku" ColumnName="Nr_budynku" />
+          <ScalarProperty Name="Nr_lokalu" ColumnName="Nr_lokalu" />
+          <ScalarProperty Name="Kod_pocztowy" ColumnName="Kod_pocztowy" />
+          <ScalarProperty Name="Data_od" ColumnName="Data_od" />
+          <ScalarProperty Name="Data_do" ColumnName="Data_do" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dostawca">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Dostawca">
+        <MappingFragment StoreEntitySet="Dostawca">
+          <ScalarProperty Name="ID_dostawca" ColumnName="ID_dostawca" />
+          <ScalarProperty Name="Nazwa_dostawca" ColumnName="Nazwa_dostawca" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dzial">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Dzial">
+        <MappingFragment StoreEntitySet="Dzial">
+          <ScalarProperty Name="ID_dzial" ColumnName="ID_dzial" />
+          <ScalarProperty Name="Nazwa_dzial" ColumnName="Nazwa_dzial" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Email_pracownik">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Email_pracownik">
+        <MappingFragment StoreEntitySet="Email_pracownik">
+          <ScalarProperty Name="ID_email_pracownik" ColumnName="ID_email_pracownik" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Data_od" ColumnName="Data_od" />
+          <ScalarProperty Name="Data_do" ColumnName="Data_do" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Gwarancja">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Gwarancja">
+        <MappingFragment StoreEntitySet="Gwarancja">
+          <ScalarProperty Name="ID_gwarancja" ColumnName="ID_gwarancja" />
+          <ScalarProperty Name="Opis_gwarancja" ColumnName="Opis_gwarancja" />
+          <ScalarProperty Name="Okres_gwarancja" ColumnName="Okres_gwarancja" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Jednostka">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Jednostka">
+        <MappingFragment StoreEntitySet="Jednostka">
+          <ScalarProperty Name="ID_jednostka" ColumnName="ID_jednostka" />
+          <ScalarProperty Name="Nazwa_jednostka" ColumnName="Nazwa_jednostka" />
+          <ScalarProperty Name="Skrot" ColumnName="Skrot" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Klient">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Klient">
+        <MappingFragment StoreEntitySet="Klient">
+          <ScalarProperty Name="ID_klient" ColumnName="ID_klient" />
+          <ScalarProperty Name="Nazwisko" ColumnName="Nazwisko" />
+          <ScalarProperty Name="Imie" ColumnName="Imie" />
+          <ScalarProperty Name="NIP" ColumnName="NIP" />
+          <ScalarProperty Name="Miejscowosc" ColumnName="Miejscowosc" />
+          <ScalarProperty Name="Ulica" ColumnName="Ulica" />
+          <ScalarProperty Name="Nr_budynek" ColumnName="Nr_budynek" />
+          <ScalarProperty Name="Nr_lokal" ColumnName="Nr_lokal" />
+          <ScalarProperty Name="Kod_pocztowy" ColumnName="Kod_pocztowy" />
+          <ScalarProperty Name="Numer_telefonu" ColumnName="Numer_telefonu" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kontrola_jakosci_pojazd">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Kontrola_jakosci_pojazd">
+        <MappingFragment StoreEntitySet="Kontrola_jakosci_pojazd">
+          <ScalarProperty Name="ID_kontrola_jakosci_pojazd" ColumnName="ID_kontrola_jakosci_pojazd" />
+          <ScalarProperty Name="ID_montaz_pojazd" ColumnName="ID_montaz_pojazd" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+          <ScalarProperty Name="ID_rodzaj_kontrola" ColumnName="ID_rodzaj_kontrola" />
+          <ScalarProperty Name="Data_kontroli" ColumnName="Data_kontroli" />
+          <ScalarProperty Name="Wynik_kontroli" ColumnName="Wynik_kontroli" />
+          <ScalarProperty Name="Uwagi" ColumnName="Uwagi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kontrola_jakosci_polprodukt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Kontrola_jakosci_polprodukt">
+        <MappingFragment StoreEntitySet="Kontrola_jakosci_polprodukt">
+          <ScalarProperty Name="ID_kontrola_jakosci_polprodukt" ColumnName="ID_kontrola_jakosci_polprodukt" />
+          <ScalarProperty Name="ID_wytwarzanie" ColumnName="ID_wytwarzanie" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+          <ScalarProperty Name="ID_rodzaj_kontrola" ColumnName="ID_rodzaj_kontrola" />
+          <ScalarProperty Name="Data_od" ColumnName="Data_od" />
+          <ScalarProperty Name="Data_do" ColumnName="Data_do" />
+          <ScalarProperty Name="Uwagi" ColumnName="Uwagi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kontrola_jakosci_produkt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Kontrola_jakosci_produkt">
+        <MappingFragment StoreEntitySet="Kontrola_jakosci_produkt">
+          <ScalarProperty Name="ID_kontrola_jakosci_produkt" ColumnName="ID_kontrola_jakosci_produkt" />
+          <ScalarProperty Name="ID_wytwarzanie" ColumnName="ID_wytwarzanie" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+          <ScalarProperty Name="ID_rodzaj_kontrola" ColumnName="ID_rodzaj_kontrola" />
+          <ScalarProperty Name="Data_od" ColumnName="Data_od" />
+          <ScalarProperty Name="Data_do" ColumnName="Data_do" />
+          <ScalarProperty Name="Uwagi" ColumnName="Uwagi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kontrola_parametr_polprodukt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Kontrola_parametr_polprodukt">
+        <MappingFragment StoreEntitySet="Kontrola_parametr_polprodukt">
+          <ScalarProperty Name="ID_kontrola_parametr_polprodukt" ColumnName="ID_kontrola_parametr_polprodukt" />
+          <ScalarProperty Name="ID_kontrola_jakosci_polprodukt" ColumnName="ID_kontrola_jakosci_polprodukt" />
+          <ScalarProperty Name="ID_parametr_produkt" ColumnName="ID_parametr_produkt" />
+          <ScalarProperty Name="Wartosc" ColumnName="Wartosc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kontrola_parametr_produkt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Kontrola_parametr_produkt">
+        <MappingFragment StoreEntitySet="Kontrola_parametr_produkt">
+          <ScalarProperty Name="ID_kontrola_parametr_produkt" ColumnName="ID_kontrola_parametr_produkt" />
+          <ScalarProperty Name="ID_kontrola_jakosci_produkt" ColumnName="ID_kontrola_jakosci_produkt" />
+          <ScalarProperty Name="ID_parametr_produkt" ColumnName="ID_parametr_produkt" />
+          <ScalarProperty Name="Wartosc" ColumnName="Wartosc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Magazynowanie_slownik">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Magazynowanie_slownik">
+        <MappingFragment StoreEntitySet="Magazynowanie_slownik">
+          <ScalarProperty Name="ID_magazynowanie" ColumnName="ID_magazynowanie" />
+          <ScalarProperty Name="Nazwa" ColumnName="Nazwa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Marka_model">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Marka_model">
+        <MappingFragment StoreEntitySet="Marka_model">
+          <ScalarProperty Name="ID_marka_model" ColumnName="ID_marka_model" />
+          <ScalarProperty Name="ID_marka_pojazd" ColumnName="ID_marka_pojazd" />
+          <ScalarProperty Name="ID_model_pojazd" ColumnName="ID_model_pojazd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Marka_model_pojazd">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Marka_model_pojazd">
+        <MappingFragment StoreEntitySet="Marka_model_pojazd">
+          <ScalarProperty Name="ID_marka_model_pojazd" ColumnName="ID_marka_model_pojazd" />
+          <ScalarProperty Name="ID_marka_model" ColumnName="ID_marka_model" />
+          <ScalarProperty Name="ID_pojazd" ColumnName="ID_pojazd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Marka_pojazd_slownik">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Marka_pojazd_slownik">
+        <MappingFragment StoreEntitySet="Marka_pojazd_slownik">
+          <ScalarProperty Name="ID_marka_pojazd" ColumnName="ID_marka_pojazd" />
+          <ScalarProperty Name="Nazwa" ColumnName="Nazwa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Maszyna">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Maszyna">
+        <MappingFragment StoreEntitySet="Maszyna">
+          <ScalarProperty Name="ID_maszyna" ColumnName="ID_maszyna" />
+          <ScalarProperty Name="Nazwa_maszyna" ColumnName="Nazwa_maszyna" />
+          <ScalarProperty Name="ID_rodzaj_maszyna" ColumnName="ID_rodzaj_maszyna" />
+          <ScalarProperty Name="Koszt_RBG" ColumnName="Koszt_RBG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Maszyna_nr_seryjny">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Maszyna_nr_seryjny">
+        <MappingFragment StoreEntitySet="Maszyna_nr_seryjny">
+          <ScalarProperty Name="ID_maszyna_nr" ColumnName="ID_maszyna_nr" />
+          <ScalarProperty Name="ID_maszyna" ColumnName="ID_maszyna" />
+          <ScalarProperty Name="ID_nr_seryjny" ColumnName="ID_nr_seryjny" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Material">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Material">
+        <MappingFragment StoreEntitySet="Material">
+          <ScalarProperty Name="ID_material" ColumnName="ID_material" />
+          <ScalarProperty Name="ID_rodzaj_material" ColumnName="ID_rodzaj_material" />
+          <ScalarProperty Name="Nazwa_material" ColumnName="Nazwa_material" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Miejsce_magazynowanie_pojazd">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Miejsce_magazynowanie_pojazd">
+        <MappingFragment StoreEntitySet="Miejsce_magazynowanie_pojazd">
+          <ScalarProperty Name="ID_miejsce_magazynowanie_pojazd" ColumnName="ID_miejsce_magazynowanie_pojazd" />
+          <ScalarProperty Name="ID_poziom_magazynowanie" ColumnName="ID_poziom_magazynowanie" />
+          <ScalarProperty Name="ID_pojazd" ColumnName="ID_pojazd" />
+          <ScalarProperty Name="Nr_miejsca" ColumnName="Nr_miejsca" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Miejsce_magazynowanie_polprodukt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Miejsce_magazynowanie_polprodukt">
+        <MappingFragment StoreEntitySet="Miejsce_magazynowanie_polprodukt">
+          <ScalarProperty Name="ID_miejsce_magazynowanie_polprodukt" ColumnName="ID_miejsce_magazynowanie_polprodukt" />
+          <ScalarProperty Name="ID_poziom_magazynowanie" ColumnName="ID_poziom_magazynowanie" />
+          <ScalarProperty Name="ID_polprodukt" ColumnName="ID_polprodukt" />
+          <ScalarProperty Name="Nr_miejsca" ColumnName="Nr_miejsca" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Miejsce_magazynowanie_produkt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Miejsce_magazynowanie_produkt">
+        <MappingFragment StoreEntitySet="Miejsce_magazynowanie_produkt">
+          <ScalarProperty Name="ID_miejsce_magazynowanie_produkt" ColumnName="ID_miejsce_magazynowanie_produkt" />
+          <ScalarProperty Name="ID_poziom_magazynowanie" ColumnName="ID_poziom_magazynowanie" />
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="Nr_miejsca" ColumnName="Nr_miejsca" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Model_pojazd_slownik">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Model_pojazd_slownik">
+        <MappingFragment StoreEntitySet="Model_pojazd_slownik">
+          <ScalarProperty Name="ID_model_pojazd" ColumnName="ID_model_pojazd" />
+          <ScalarProperty Name="Nazwa" ColumnName="Nazwa" />
+          <ScalarProperty Name="Rok_produkcji_od" ColumnName="Rok_produkcji_od" />
+          <ScalarProperty Name="Rok_produkcji_do" ColumnName="Rok_produkcji_do" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Montaz_pojazd">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Montaz_pojazd">
+        <MappingFragment StoreEntitySet="Montaz_pojazd">
+          <ScalarProperty Name="ID_montaz_pojazd" ColumnName="ID_montaz_pojazd" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+          <ScalarProperty Name="ID_zamowienie_szczegol_pojazd" ColumnName="ID_zamowienie_szczegol_pojazd" />
+          <ScalarProperty Name="Czas_od" ColumnName="Czas_od" />
+          <ScalarProperty Name="Czas_do" ColumnName="Czas_do" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Narzedzie">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Narzedzie">
+        <MappingFragment StoreEntitySet="Narzedzie">
+          <ScalarProperty Name="ID_narzedzie" ColumnName="ID_narzedzie" />
+          <ScalarProperty Name="Nazwa_narzedzie" ColumnName="Nazwa_narzedzie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nieobecnosc">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Nieobecnosc">
+        <MappingFragment StoreEntitySet="Nieobecnosc">
+          <ScalarProperty Name="ID_nieobecnosc" ColumnName="ID_nieobecnosc" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+          <ScalarProperty Name="ID_rodzaj_nieobecnosci" ColumnName="ID_rodzaj_nieobecnosci" />
+          <ScalarProperty Name="Data_od" ColumnName="Data_od" />
+          <ScalarProperty Name="Data_do" ColumnName="Data_do" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nr_seryjny">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Nr_seryjny">
+        <MappingFragment StoreEntitySet="Nr_seryjny">
+          <ScalarProperty Name="ID_nr_seryjny" ColumnName="ID_nr_seryjny" />
+          <ScalarProperty Name="Nr_seryjny1" ColumnName="Nr_seryjny" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nr_telefon_pracownik">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Nr_telefon_pracownik">
+        <MappingFragment StoreEntitySet="Nr_telefon_pracownik">
+          <ScalarProperty Name="ID_Nr_telefon_pracownik" ColumnName="ID_Nr_telefon_pracownik" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+          <ScalarProperty Name="Numer" ColumnName="Numer" />
+          <ScalarProperty Name="Data_od" ColumnName="Data_od" />
+          <ScalarProperty Name="Data_do" ColumnName="Data_do" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Obsluga">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Obsluga">
+        <MappingFragment StoreEntitySet="Obsluga">
+          <ScalarProperty Name="ID_obsluga" ColumnName="ID_obsluga" />
+          <ScalarProperty Name="ID_rodzaj_obsluga" ColumnName="ID_rodzaj_obsluga" />
+          <ScalarProperty Name="ID_stanowisko_produkcyjne" ColumnName="ID_stanowisko_produkcyjne" />
+          <ScalarProperty Name="Data_od" ColumnName="Data_od" />
+          <ScalarProperty Name="Data_do" ColumnName="Data_do" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Obsluga_pracownik">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Obsluga_pracownik">
+        <MappingFragment StoreEntitySet="Obsluga_pracownik">
+          <ScalarProperty Name="ID_obsluga_pracownik" ColumnName="ID_obsluga_pracownik" />
+          <ScalarProperty Name="ID_obsluga" ColumnName="ID_obsluga" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Parametr_czesc">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Parametr_czesc">
+        <MappingFragment StoreEntitySet="Parametr_czesc">
+          <ScalarProperty Name="ID_parametr_czesc" ColumnName="ID_parametr_czesc" />
+          <ScalarProperty Name="ID_czesc" ColumnName="ID_czesc" />
+          <ScalarProperty Name="ID_rodzaj_parametr" ColumnName="ID_rodzaj_parametr" />
+          <ScalarProperty Name="Zakres_dol" ColumnName="Zakres_dol" />
+          <ScalarProperty Name="Zakres_gora" ColumnName="Zakres_gora" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Parametr_maszyna">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Parametr_maszyna">
+        <MappingFragment StoreEntitySet="Parametr_maszyna">
+          <ScalarProperty Name="ID_parametr_maszyna" ColumnName="ID_parametr_maszyna" />
+          <ScalarProperty Name="ID_maszyna" ColumnName="ID_maszyna" />
+          <ScalarProperty Name="ID_rodzaj_parametr" ColumnName="ID_rodzaj_parametr" />
+          <ScalarProperty Name="Zakres_dol" ColumnName="Zakres_dol" />
+          <ScalarProperty Name="Zakres_gora" ColumnName="Zakres_gora" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Parametr_material">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Parametr_material">
+        <MappingFragment StoreEntitySet="Parametr_material">
+          <ScalarProperty Name="ID_parametr_material" ColumnName="ID_parametr_material" />
+          <ScalarProperty Name="ID_material" ColumnName="ID_material" />
+          <ScalarProperty Name="ID_rodzaj_parametr" ColumnName="ID_rodzaj_parametr" />
+          <ScalarProperty Name="Zakres_dol" ColumnName="Zakres_dol" />
+          <ScalarProperty Name="Zakres_gora" ColumnName="Zakres_gora" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Parametr_narzedzie">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Parametr_narzedzie">
+        <MappingFragment StoreEntitySet="Parametr_narzedzie">
+          <ScalarProperty Name="ID_parametr_narzedzie" ColumnName="ID_parametr_narzedzie" />
+          <ScalarProperty Name="ID_narzedzie" ColumnName="ID_narzedzie" />
+          <ScalarProperty Name="ID_rodzaj_parametr" ColumnName="ID_rodzaj_parametr" />
+          <ScalarProperty Name="Zakres_dol" ColumnName="Zakres_dol" />
+          <ScalarProperty Name="Zakres_gora" ColumnName="Zakres_gora" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Parametr_polprodukt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Parametr_polprodukt">
+        <MappingFragment StoreEntitySet="Parametr_polprodukt">
+          <ScalarProperty Name="ID_parametr_polprodukt" ColumnName="ID_parametr_polprodukt" />
+          <ScalarProperty Name="ID_polprodukt" ColumnName="ID_polprodukt" />
+          <ScalarProperty Name="ID_rodzaj_parametr" ColumnName="ID_rodzaj_parametr" />
+          <ScalarProperty Name="Zakres_dol" ColumnName="Zakres_dol" />
+          <ScalarProperty Name="Zakres_gora" ColumnName="Zakres_gora" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Parametr_poziom_magazynowanie">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Parametr_poziom_magazynowanie">
+        <MappingFragment StoreEntitySet="Parametr_poziom_magazynowanie">
+          <ScalarProperty Name="ID_parametr_poziom_magazynowanie" ColumnName="ID_parametr_poziom_magazynowanie" />
+          <ScalarProperty Name="ID_poziom_magazynowanie" ColumnName="ID_poziom_magazynowanie" />
+          <ScalarProperty Name="ID_rodzaj_parametr" ColumnName="ID_rodzaj_parametr" />
+          <ScalarProperty Name="Wartosc_dolna" ColumnName="Wartosc_dolna" />
+          <ScalarProperty Name="Wartosc_gorna" ColumnName="Wartosc_gorna" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Parametr_produkt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Parametr_produkt">
+        <MappingFragment StoreEntitySet="Parametr_produkt">
+          <ScalarProperty Name="ID_parametr_produkt" ColumnName="ID_parametr_produkt" />
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="ID_rodzaj_parametr" ColumnName="ID_rodzaj_parametr" />
+          <ScalarProperty Name="Zakres_dol" ColumnName="Zakres_dol" />
+          <ScalarProperty Name="Zakres_gora" ColumnName="Zakres_gora" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Parametr_typ_magazynowania">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Parametr_typ_magazynowania">
+        <MappingFragment StoreEntitySet="Parametr_typ_magazynowania">
+          <ScalarProperty Name="ID_parametr_typ_magazynowania" ColumnName="ID_parametr_typ_magazynowania" />
+          <ScalarProperty Name="ID_magazynowanie" ColumnName="ID_magazynowanie" />
+          <ScalarProperty Name="ID_rodzaj_parametr" ColumnName="ID_rodzaj_parametr" />
+          <ScalarProperty Name="Wartosc_dolna" ColumnName="Wartosc_dolna" />
+          <ScalarProperty Name="Wartosc_gorna" ColumnName="Wartosc_gorna" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pojazd">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Pojazd">
+        <MappingFragment StoreEntitySet="Pojazd">
+          <ScalarProperty Name="ID_pojazd" ColumnName="ID_pojazd" />
+          <ScalarProperty Name="Nr_VIN" ColumnName="Nr_VIN" />
+          <ScalarProperty Name="Rok_produkcji" ColumnName="Rok_produkcji" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Poziom_magazynowanie">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Poziom_magazynowanie">
+        <MappingFragment StoreEntitySet="Poziom_magazynowanie">
+          <ScalarProperty Name="ID_poziom_magazynowanie" ColumnName="ID_poziom_magazynowanie" />
+          <ScalarProperty Name="ID_magazynowanie" ColumnName="ID_magazynowanie" />
+          <ScalarProperty Name="Poziom" ColumnName="Poziom" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pracownik">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Pracownik">
+        <MappingFragment StoreEntitySet="Pracownik">
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+          <ScalarProperty Name="Nazwisko" ColumnName="Nazwisko" />
+          <ScalarProperty Name="Imie" ColumnName="Imie" />
+          <ScalarProperty Name="Nr_dowodu" ColumnName="Nr_dowodu" />
+          <ScalarProperty Name="Pesel" ColumnName="Pesel" />
+          <ScalarProperty Name="ID_wyksztalcenie" ColumnName="ID_wyksztalcenie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proces_montaz_pojazd">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Proces_montaz_pojazd">
+        <MappingFragment StoreEntitySet="Proces_montaz_pojazd">
+          <ScalarProperty Name="ID_proces_montaz_pojazd" ColumnName="ID_proces_montaz_pojazd" />
+          <ScalarProperty Name="ID_montaz_pojazd" ColumnName="ID_montaz_pojazd" />
+          <ScalarProperty Name="ID_proces_montaz_pojazd_czynnosc" ColumnName="ID_proces_montaz_pojazd_czynnosc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proces_montaz_pojazd_czynnosc">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Proces_montaz_pojazd_czynnosc">
+        <MappingFragment StoreEntitySet="Proces_montaz_pojazd_czynnosc">
+          <ScalarProperty Name="ID_proces_montaz_pojazd_czynnosc" ColumnName="ID_proces_montaz_pojazd_czynnosc" />
+          <ScalarProperty Name="ID_pojazd" ColumnName="ID_pojazd" />
+          <ScalarProperty Name="ID_czynnosc_produkcyjna" ColumnName="ID_czynnosc_produkcyjna" />
+          <ScalarProperty Name="ID_stanowisko_produkcyjne" ColumnName="ID_stanowisko_produkcyjne" />
+          <ScalarProperty Name="Czas_trwania" ColumnName="Czas_trwania" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proces_polprodukt_czynnosc">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Proces_polprodukt_czynnosc">
+        <MappingFragment StoreEntitySet="Proces_polprodukt_czynnosc">
+          <ScalarProperty Name="ID_proces_polprodukt" ColumnName="ID_proces_polprodukt" />
+          <ScalarProperty Name="ID_polprodukt" ColumnName="ID_polprodukt" />
+          <ScalarProperty Name="ID_czynnosc_produkcyjna" ColumnName="ID_czynnosc_produkcyjna" />
+          <ScalarProperty Name="ID_stanowisko_produkcyjne" ColumnName="ID_stanowisko_produkcyjne" />
+          <ScalarProperty Name="Czas_trwania" ColumnName="Czas_trwania" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proces_produkt_czynnosc">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Proces_produkt_czynnosc">
+        <MappingFragment StoreEntitySet="Proces_produkt_czynnosc">
+          <ScalarProperty Name="ID_proces_produkt" ColumnName="ID_proces_produkt" />
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="ID_czynnosc_produkcyjna" ColumnName="ID_czynnosc_produkcyjna" />
+          <ScalarProperty Name="ID_stanowisko_produkcyjne" ColumnName="ID_stanowisko_produkcyjne" />
+          <ScalarProperty Name="Czas_trwania" ColumnName="Czas_trwania" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proces_wytwarzanie_polprodukt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Proces_wytwarzanie_polprodukt">
+        <MappingFragment StoreEntitySet="Proces_wytwarzanie_polprodukt">
+          <ScalarProperty Name="ID_proces_wytwarzanie_polprodukt" ColumnName="ID_proces_wytwarzanie_polprodukt" />
+          <ScalarProperty Name="ID_wytwarzanie" ColumnName="ID_wytwarzanie" />
+          <ScalarProperty Name="ID_proces_polprodukt" ColumnName="ID_proces_polprodukt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proces_wytwarzanie_produkt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Proces_wytwarzanie_produkt">
+        <MappingFragment StoreEntitySet="Proces_wytwarzanie_produkt">
+          <ScalarProperty Name="ID_proces_wytwarzanie_produkt" ColumnName="ID_proces_wytwarzanie_produkt" />
+          <ScalarProperty Name="ID_wytwarzanie" ColumnName="ID_wytwarzanie" />
+          <ScalarProperty Name="ID_proces_produkt" ColumnName="ID_proces_produkt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Producent">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Producent">
+        <MappingFragment StoreEntitySet="Producent">
+          <ScalarProperty Name="ID_producent" ColumnName="ID_producent" />
+          <ScalarProperty Name="Nazwa_producenta" ColumnName="Nazwa_producenta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Produkt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Produkt">
+        <MappingFragment StoreEntitySet="Produkt">
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="Nazwa_produkt" ColumnName="Nazwa_produkt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Reklamacja_pojazd">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Reklamacja_pojazd">
+        <MappingFragment StoreEntitySet="Reklamacja_pojazd">
+          <ScalarProperty Name="ID_reklamacja_pojazd" ColumnName="ID_reklamacja_pojazd" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+          <ScalarProperty Name="ID_zamowienie" ColumnName="ID_zamowienie" />
+          <ScalarProperty Name="Data_reklamacja" ColumnName="Data_reklamacja" />
+          <ScalarProperty Name="Opis_reklamacja" ColumnName="Opis_reklamacja" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Reklamacja_produkt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Reklamacja_produkt">
+        <MappingFragment StoreEntitySet="Reklamacja_produkt">
+          <ScalarProperty Name="ID_reklamacja_produkt" ColumnName="ID_reklamacja_produkt" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+          <ScalarProperty Name="ID_zamowienie" ColumnName="ID_zamowienie" />
+          <ScalarProperty Name="Data_reklamacja" ColumnName="Data_reklamacja" />
+          <ScalarProperty Name="Opis_reklamacja" ColumnName="Opis_reklamacja" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rodzaj_czesc">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Rodzaj_czesc">
+        <MappingFragment StoreEntitySet="Rodzaj_czesc">
+          <ScalarProperty Name="ID_rodzaj_czesc" ColumnName="ID_rodzaj_czesc" />
+          <ScalarProperty Name="Nazwa_rodzaj_czesc" ColumnName="Nazwa_rodzaj_czesc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rodzaj_kontrola">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Rodzaj_kontrola">
+        <MappingFragment StoreEntitySet="Rodzaj_kontrola">
+          <ScalarProperty Name="ID_rodzaj_kontrola" ColumnName="ID_rodzaj_kontrola" />
+          <ScalarProperty Name="Rodzaj_kontrola1" ColumnName="Rodzaj_kontrola" />
+          <ScalarProperty Name="Procedura" ColumnName="Procedura" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rodzaj_maszyna">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Rodzaj_maszyna">
+        <MappingFragment StoreEntitySet="Rodzaj_maszyna">
+          <ScalarProperty Name="ID_rodzaj_maszyna" ColumnName="ID_rodzaj_maszyna" />
+          <ScalarProperty Name="Nazwa_rodzaj_maszyna" ColumnName="Nazwa_rodzaj_maszyna" />
+          <ScalarProperty Name="Opis" ColumnName="Opis" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rodzaj_material">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Rodzaj_material">
+        <MappingFragment StoreEntitySet="Rodzaj_material">
+          <ScalarProperty Name="ID_rodzaj_material" ColumnName="ID_rodzaj_material" />
+          <ScalarProperty Name="Nazwa_rodzaj_material" ColumnName="Nazwa_rodzaj_material" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rodzaj_nieobecnosci">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Rodzaj_nieobecnosci">
+        <MappingFragment StoreEntitySet="Rodzaj_nieobecnosci">
+          <ScalarProperty Name="ID_rodzaj_nieobecnosci" ColumnName="ID_rodzaj_nieobecnosci" />
+          <ScalarProperty Name="Symbol" ColumnName="Symbol" />
+          <ScalarProperty Name="Procent_wynagrodzenia" ColumnName="Procent_wynagrodzenia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rodzaj_obsluga">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Rodzaj_obsluga">
+        <MappingFragment StoreEntitySet="Rodzaj_obsluga">
+          <ScalarProperty Name="ID_rodzaj_obsluga" ColumnName="ID_rodzaj_obsluga" />
+          <ScalarProperty Name="Nazwa_rodzaj_obsluga" ColumnName="Nazwa_rodzaj_obsluga" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rodzaj_parametr">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Rodzaj_parametr">
+        <MappingFragment StoreEntitySet="Rodzaj_parametr">
+          <ScalarProperty Name="ID_rodzaj_parametr" ColumnName="ID_rodzaj_parametr" />
+          <ScalarProperty Name="Nazwa_rodzaj_parametr" ColumnName="Nazwa_rodzaj_parametr" />
+          <ScalarProperty Name="ID_jednostka" ColumnName="ID_jednostka" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rodzaj_szkolenie">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Rodzaj_szkolenie">
+        <MappingFragment StoreEntitySet="Rodzaj_szkolenie">
+          <ScalarProperty Name="ID_rodzaj_szkolenie" ColumnName="ID_rodzaj_szkolenie" />
+          <ScalarProperty Name="Nazwa" ColumnName="Nazwa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rodzaj_umowy">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Rodzaj_umowy">
+        <MappingFragment StoreEntitySet="Rodzaj_umowy">
+          <ScalarProperty Name="ID_rodzaj_umowy" ColumnName="ID_rodzaj_umowy" />
+          <ScalarProperty Name="Nazwa" ColumnName="Nazwa" />
+          <ScalarProperty Name="Urlop" ColumnName="Urlop" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sklad_maszyna">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Sklad_maszyna">
+        <MappingFragment StoreEntitySet="Sklad_maszyna">
+          <ScalarProperty Name="ID_sklad_maszyna" ColumnName="ID_sklad_maszyna" />
+          <ScalarProperty Name="ID_maszyna" ColumnName="ID_maszyna" />
+          <ScalarProperty Name="ID_czesc" ColumnName="ID_czesc" />
+          <ScalarProperty Name="Ilosc_czesci" ColumnName="Ilosc_czesci" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sklad_polprodukt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Sklad_polprodukt">
+        <MappingFragment StoreEntitySet="Sklad_polprodukt">
+          <ScalarProperty Name="ID_sklad_polprodukt" ColumnName="ID_sklad_polprodukt" />
+          <ScalarProperty Name="ID_polprodukt" ColumnName="ID_polprodukt" />
+          <ScalarProperty Name="ID_material" ColumnName="ID_material" />
+          <ScalarProperty Name="Ilosc" ColumnName="Ilosc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sklad_produkt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Sklad_produkt">
+        <MappingFragment StoreEntitySet="Sklad_produkt">
+          <ScalarProperty Name="ID_sklad_produkt" ColumnName="ID_sklad_produkt" />
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="ID_polprodukt" ColumnName="ID_polprodukt" />
+          <ScalarProperty Name="Ilosc" ColumnName="Ilosc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sklad_produkt_material">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Sklad_produkt_material">
+        <MappingFragment StoreEntitySet="Sklad_produkt_material">
+          <ScalarProperty Name="ID_sklad_produkt_material" ColumnName="ID_sklad_produkt_material" />
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="ID_material" ColumnName="ID_material" />
+          <ScalarProperty Name="Ilosc_g" ColumnName="Ilosc_g" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sklad_stanowisko_produkcyjne_maszyna">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Sklad_stanowisko_produkcyjne_maszyna">
+        <MappingFragment StoreEntitySet="Sklad_stanowisko_produkcyjne_maszyna">
+          <ScalarProperty Name="ID_sklad_stanowisko_produkcyjne_maszyna" ColumnName="ID_sklad_stanowisko_produkcyjne_maszyna" />
+          <ScalarProperty Name="ID_stanowisko_produkcyjne" ColumnName="ID_stanowisko_produkcyjne" />
+          <ScalarProperty Name="ID_maszyna_nr" ColumnName="ID_maszyna_nr" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sklad_stanowisko_produkcyjne_narzedzie">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Sklad_stanowisko_produkcyjne_narzedzie">
+        <MappingFragment StoreEntitySet="Sklad_stanowisko_produkcyjne_narzedzie">
+          <ScalarProperty Name="ID_sklad_stanowisko_produkcyjne_narzedzie" ColumnName="ID_sklad_stanowisko_produkcyjne_narzedzie" />
+          <ScalarProperty Name="ID_stanowisko_produkcyjne" ColumnName="ID_stanowisko_produkcyjne" />
+          <ScalarProperty Name="ID_narzedzie" ColumnName="ID_narzedzie" />
+          <ScalarProperty Name="Ilosc" ColumnName="Ilosc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Slownik_polprodukt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Slownik_polprodukt">
+        <MappingFragment StoreEntitySet="Slownik_polprodukt">
+          <ScalarProperty Name="ID_polprodukt" ColumnName="ID_polprodukt" />
+          <ScalarProperty Name="Nazwa" ColumnName="Nazwa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Slownik_stanowisko">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Slownik_stanowisko">
+        <MappingFragment StoreEntitySet="Slownik_stanowisko">
+          <ScalarProperty Name="ID_nazwa_stanowiska" ColumnName="ID_nazwa_stanowiska" />
+          <ScalarProperty Name="Nazwa_stanowiska" ColumnName="Nazwa_stanowiska" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stan_realizacji_zamowienie_czesc">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Stan_realizacji_zamowienie_czesc">
+        <MappingFragment StoreEntitySet="Stan_realizacji_zamowienie_czesc">
+          <ScalarProperty Name="ID_zamowienie_czesc" ColumnName="ID_zamowienie_czesc" />
+          <ScalarProperty Name="ID_status_zamowienie" ColumnName="ID_status_zamowienie" />
+          <ScalarProperty Name="Data_stan" ColumnName="Data_stan" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stan_realizacji_zamowienie_maszyna">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Stan_realizacji_zamowienie_maszyna">
+        <MappingFragment StoreEntitySet="Stan_realizacji_zamowienie_maszyna">
+          <ScalarProperty Name="ID_zamowienie_maszyna" ColumnName="ID_zamowienie_maszyna" />
+          <ScalarProperty Name="ID_status_zamowienie" ColumnName="ID_status_zamowienie" />
+          <ScalarProperty Name="Data_stan" ColumnName="Data_stan" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stan_realizacji_zamowienie_material">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Stan_realizacji_zamowienie_material">
+        <MappingFragment StoreEntitySet="Stan_realizacji_zamowienie_material">
+          <ScalarProperty Name="ID_stan_realizacji_zamowienie_material" ColumnName="ID_stan_realizacji_zamowienie_material" />
+          <ScalarProperty Name="ID_zamowienie_material" ColumnName="ID_zamowienie_material" />
+          <ScalarProperty Name="ID_status_zamowienie" ColumnName="ID_status_zamowienie" />
+          <ScalarProperty Name="Data_stan" ColumnName="Data_stan" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stan_realizacji_zamowienie_narzedzie">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Stan_realizacji_zamowienie_narzedzie">
+        <MappingFragment StoreEntitySet="Stan_realizacji_zamowienie_narzedzie">
+          <ScalarProperty Name="ID_zamowienie_narzedzie" ColumnName="ID_zamowienie_narzedzie" />
+          <ScalarProperty Name="ID_status_zamowienie" ColumnName="ID_status_zamowienie" />
+          <ScalarProperty Name="Data_stan" ColumnName="Data_stan" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stan_realizacji_zamowienie_polprodukt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Stan_realizacji_zamowienie_polprodukt">
+        <MappingFragment StoreEntitySet="Stan_realizacji_zamowienie_polprodukt">
+          <ScalarProperty Name="ID_stan_realizacji_zamowienie_polprodukt" ColumnName="ID_stan_realizacji_zamowienie_polprodukt" />
+          <ScalarProperty Name="ID_zamowienie_polprodukt" ColumnName="ID_zamowienie_polprodukt" />
+          <ScalarProperty Name="ID_status_zamowienie" ColumnName="ID_status_zamowienie" />
+          <ScalarProperty Name="Data_stan" ColumnName="Data_stan" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stan_realizacji_zamowienie_produkt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Stan_realizacji_zamowienie_produkt">
+        <MappingFragment StoreEntitySet="Stan_realizacji_zamowienie_produkt">
+          <ScalarProperty Name="ID_stan_realizacji_zamowienie_produkt" ColumnName="ID_stan_realizacji_zamowienie_produkt" />
+          <ScalarProperty Name="ID_zamowienie_produkt" ColumnName="ID_zamowienie_produkt" />
+          <ScalarProperty Name="ID_status_zamowienie" ColumnName="ID_status_zamowienie" />
+          <ScalarProperty Name="Data_stan" ColumnName="Data_stan" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stanowisko">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Stanowisko">
+        <MappingFragment StoreEntitySet="Stanowisko">
+          <ScalarProperty Name="ID_stanowisko" ColumnName="ID_stanowisko" />
+          <ScalarProperty Name="ID_dzial" ColumnName="ID_dzial" />
+          <ScalarProperty Name="Placa" ColumnName="Placa" />
+          <ScalarProperty Name="Nazwa_stanowiska" ColumnName="Nazwa_stanowiska" />
+          <ScalarProperty Name="Opis_stanowiska" ColumnName="Opis_stanowiska" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stanowisko_pracownik">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Stanowisko_pracownik">
+        <MappingFragment StoreEntitySet="Stanowisko_pracownik">
+          <ScalarProperty Name="ID_stanowisko_pracownik" ColumnName="ID_stanowisko_pracownik" />
+          <ScalarProperty Name="ID_stanowisko" ColumnName="ID_stanowisko" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stanowisko_produkcyjne">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Stanowisko_produkcyjne">
+        <MappingFragment StoreEntitySet="Stanowisko_produkcyjne">
+          <ScalarProperty Name="ID_stanowisko_produkcyjne" ColumnName="ID_stanowisko_produkcyjne" />
+          <ScalarProperty Name="ID_nazwa_stanowiska" ColumnName="ID_nazwa_stanowiska" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Status_zamowienie">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Status_zamowienie">
+        <MappingFragment StoreEntitySet="Status_zamowienie">
+          <ScalarProperty Name="ID_status_zamowienie" ColumnName="ID_status_zamowienie" />
+          <ScalarProperty Name="Nazwa_status" ColumnName="Nazwa_status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Szczegol_reklamacja_pojazd">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Szczegol_reklamacja_pojazd">
+        <MappingFragment StoreEntitySet="Szczegol_reklamacja_pojazd">
+          <ScalarProperty Name="ID_szczegol_reklamacja_pojazd" ColumnName="ID_szczegol_reklamacja_pojazd" />
+          <ScalarProperty Name="ID_reklamacja_pojazd" ColumnName="ID_reklamacja_pojazd" />
+          <ScalarProperty Name="ID_typ_reklamacja" ColumnName="ID_typ_reklamacja" />
+          <ScalarProperty Name="ID_pojazd" ColumnName="ID_pojazd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Szczegol_reklamacja_produkt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Szczegol_reklamacja_produkt">
+        <MappingFragment StoreEntitySet="Szczegol_reklamacja_produkt">
+          <ScalarProperty Name="ID_szczegol_reklamacja_pojazd" ColumnName="ID_szczegol_reklamacja_pojazd" />
+          <ScalarProperty Name="ID_reklamacja_produkt" ColumnName="ID_reklamacja_produkt" />
+          <ScalarProperty Name="ID_typ_reklamacja" ColumnName="ID_typ_reklamacja" />
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Szczegoly_zamowienie_czesc">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Szczegoly_zamowienie_czesc">
+        <MappingFragment StoreEntitySet="Szczegoly_zamowienie_czesc">
+          <ScalarProperty Name="ID_zamowienie_czesc" ColumnName="ID_zamowienie_czesc" />
+          <ScalarProperty Name="ID_czesc" ColumnName="ID_czesc" />
+          <ScalarProperty Name="ID_producent" ColumnName="ID_producent" />
+          <ScalarProperty Name="Ilosc" ColumnName="Ilosc" />
+          <ScalarProperty Name="Cena" ColumnName="Cena" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Szczegoly_zamowienie_maszyna">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Szczegoly_zamowienie_maszyna">
+        <MappingFragment StoreEntitySet="Szczegoly_zamowienie_maszyna">
+          <ScalarProperty Name="ID_zamowienie_maszyna" ColumnName="ID_zamowienie_maszyna" />
+          <ScalarProperty Name="ID_maszyna" ColumnName="ID_maszyna" />
+          <ScalarProperty Name="ID_producent" ColumnName="ID_producent" />
+          <ScalarProperty Name="Ilosc" ColumnName="Ilosc" />
+          <ScalarProperty Name="Cena" ColumnName="Cena" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Szczegoly_zamowienie_material">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Szczegoly_zamowienie_material">
+        <MappingFragment StoreEntitySet="Szczegoly_zamowienie_material">
+          <ScalarProperty Name="ID_szczegoly_zamowienie_material" ColumnName="ID_szczegoly_zamowienie_material" />
+          <ScalarProperty Name="ID_zamowienie_material" ColumnName="ID_zamowienie_material" />
+          <ScalarProperty Name="ID_material" ColumnName="ID_material" />
+          <ScalarProperty Name="ID_producent" ColumnName="ID_producent" />
+          <ScalarProperty Name="Waga_g" ColumnName="Waga_g" />
+          <ScalarProperty Name="Cena" ColumnName="Cena" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Szczegoly_zamowienie_narzedzie">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Szczegoly_zamowienie_narzedzie">
+        <MappingFragment StoreEntitySet="Szczegoly_zamowienie_narzedzie">
+          <ScalarProperty Name="ID_zamowienie_narzedzie" ColumnName="ID_zamowienie_narzedzie" />
+          <ScalarProperty Name="ID_narzedzie" ColumnName="ID_narzedzie" />
+          <ScalarProperty Name="ID_producent" ColumnName="ID_producent" />
+          <ScalarProperty Name="Sztuk" ColumnName="Sztuk" />
+          <ScalarProperty Name="Cena" ColumnName="Cena" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Szczegoly_zamowienie_polprodukt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Szczegoly_zamowienie_polprodukt">
+        <MappingFragment StoreEntitySet="Szczegoly_zamowienie_polprodukt">
+          <ScalarProperty Name="ID_szczegoly_zamowienie_polprodukt" ColumnName="ID_szczegoly_zamowienie_polprodukt" />
+          <ScalarProperty Name="ID_zamowienie_polprodukt" ColumnName="ID_zamowienie_polprodukt" />
+          <ScalarProperty Name="ID_polprodukt" ColumnName="ID_polprodukt" />
+          <ScalarProperty Name="Ilosc" ColumnName="Ilosc" />
+          <ScalarProperty Name="Cena" ColumnName="Cena" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Szczegoly_zamowienie_produkt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Szczegoly_zamowienie_produkt">
+        <MappingFragment StoreEntitySet="Szczegoly_zamowienie_produkt">
+          <ScalarProperty Name="ID_szczegoly_zamowienie_produkt" ColumnName="ID_szczegoly_zamowienie_produkt" />
+          <ScalarProperty Name="ID_zamowienie_produkt" ColumnName="ID_zamowienie_produkt" />
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="Ilosc" ColumnName="Ilosc" />
+          <ScalarProperty Name="Cena" ColumnName="Cena" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Szkolenie_pracownik">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Szkolenie_pracownik">
+        <MappingFragment StoreEntitySet="Szkolenie_pracownik">
+          <ScalarProperty Name="ID_szkolenie_pracownik" ColumnName="ID_szkolenie_pracownik" />
+          <ScalarProperty Name="ID_rodzaj_szkolenie" ColumnName="ID_rodzaj_szkolenie" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+          <ScalarProperty Name="Data_od" ColumnName="Data_od" />
+          <ScalarProperty Name="Data_do" ColumnName="Data_do" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Typ_pojazd_model">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Typ_pojazd_model">
+        <MappingFragment StoreEntitySet="Typ_pojazd_model">
+          <ScalarProperty Name="ID_typ_pojazd_model" ColumnName="ID_typ_pojazd_model" />
+          <ScalarProperty Name="ID_marka_model_pojazd" ColumnName="ID_marka_model_pojazd" />
+          <ScalarProperty Name="ID_typ_pojazd" ColumnName="ID_typ_pojazd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Typ_pojazd_model_silnik">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Typ_pojazd_model_silnik">
+        <MappingFragment StoreEntitySet="Typ_pojazd_model_silnik">
+          <ScalarProperty Name="ID_typ_pojazd_model_silnik" ColumnName="ID_typ_pojazd_model_silnik" />
+          <ScalarProperty Name="ID_typ_pojazd_model" ColumnName="ID_typ_pojazd_model" />
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Typ_pojazd_slownik">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Typ_pojazd_slownik">
+        <MappingFragment StoreEntitySet="Typ_pojazd_slownik">
+          <ScalarProperty Name="ID_typ_pojazd" ColumnName="ID_typ_pojazd" />
+          <ScalarProperty Name="Nazwa_typ" ColumnName="Nazwa_typ" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Typ_reklamacja">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Typ_reklamacja">
+        <MappingFragment StoreEntitySet="Typ_reklamacja">
+          <ScalarProperty Name="ID_typ_reklamacja" ColumnName="ID_typ_reklamacja" />
+          <ScalarProperty Name="Nazwa" ColumnName="Nazwa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Typ_zamowienie">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Typ_zamowienie">
+        <MappingFragment StoreEntitySet="Typ_zamowienie">
+          <ScalarProperty Name="ID_typ_zamowienie" ColumnName="ID_typ_zamowienie" />
+          <ScalarProperty Name="Rodzaj_zamowienie" ColumnName="Rodzaj_zamowienie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Umowa">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Umowa">
+        <MappingFragment StoreEntitySet="Umowa">
+          <ScalarProperty Name="ID_umowa" ColumnName="ID_umowa" />
+          <ScalarProperty Name="ID_rodzaj_umowy" ColumnName="ID_rodzaj_umowy" />
+          <ScalarProperty Name="ID_stanowisko_pracownik" ColumnName="ID_stanowisko_pracownik" />
+          <ScalarProperty Name="Data_od" ColumnName="Data_od" />
+          <ScalarProperty Name="Data_do" ColumnName="Data_do" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Wersja_wyposazenia_pojazd">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Wersja_wyposazenia_pojazd">
+        <MappingFragment StoreEntitySet="Wersja_wyposazenia_pojazd">
+          <ScalarProperty Name="ID_wersja_wyposazenia_pojazd" ColumnName="ID_wersja_wyposazenia_pojazd" />
+          <ScalarProperty Name="ID_wersja_wyposazenia" ColumnName="ID_wersja_wyposazenia" />
+          <ScalarProperty Name="ID_typ_pojazd_model" ColumnName="ID_typ_pojazd_model" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Wersja_wyposazenia_produkt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Wersja_wyposazenia_produkt">
+        <MappingFragment StoreEntitySet="Wersja_wyposazenia_produkt">
+          <ScalarProperty Name="ID_wersja_wyposazenia_produkt" ColumnName="ID_wersja_wyposazenia_produkt" />
+          <ScalarProperty Name="ID_wersja_wyposazenia_pojazd" ColumnName="ID_wersja_wyposazenia_pojazd" />
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="Ilosc" ColumnName="Ilosc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Wersja_wyposazenia_slownik">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Wersja_wyposazenia_slownik">
+        <MappingFragment StoreEntitySet="Wersja_wyposazenia_slownik">
+          <ScalarProperty Name="ID_wersja_wyposazenia" ColumnName="ID_wersja_wyposazenia" />
+          <ScalarProperty Name="Nazwa" ColumnName="Nazwa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Wyksztalcenie">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Wyksztalcenie">
+        <MappingFragment StoreEntitySet="Wyksztalcenie">
+          <ScalarProperty Name="ID_wyksztalcenie" ColumnName="ID_wyksztalcenie" />
+          <ScalarProperty Name="Nazwa" ColumnName="Nazwa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Wytwarzanie">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Wytwarzanie">
+        <MappingFragment StoreEntitySet="Wytwarzanie">
+          <ScalarProperty Name="ID_wytwarzanie" ColumnName="ID_wytwarzanie" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+          <ScalarProperty Name="ID_zamowienie_szczegol" ColumnName="ID_zamowienie_szczegol" />
+          <ScalarProperty Name="Czas_od" ColumnName="Czas_od" />
+          <ScalarProperty Name="Czas_do" ColumnName="Czas_do" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zamowienie">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Zamowienie">
+        <MappingFragment StoreEntitySet="Zamowienie">
+          <ScalarProperty Name="ID_zamowienie" ColumnName="ID_zamowienie" />
+          <ScalarProperty Name="ID_klient" ColumnName="ID_klient" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+          <ScalarProperty Name="Data_zamowienie" ColumnName="Data_zamowienie" />
+          <ScalarProperty Name="ID_typ_zamowienie" ColumnName="ID_typ_zamowienie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zamowienie_czesc">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Zamowienie_czesc">
+        <MappingFragment StoreEntitySet="Zamowienie_czesc">
+          <ScalarProperty Name="ID_zamowienie_czesc" ColumnName="ID_zamowienie_czesc" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+          <ScalarProperty Name="Data_zamowienia" ColumnName="Data_zamowienia" />
+          <ScalarProperty Name="ID_dostawca" ColumnName="ID_dostawca" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zamowienie_maszyna">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Zamowienie_maszyna">
+        <MappingFragment StoreEntitySet="Zamowienie_maszyna">
+          <ScalarProperty Name="ID_zamowienie_maszyna" ColumnName="ID_zamowienie_maszyna" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+          <ScalarProperty Name="Data_zamowienia" ColumnName="Data_zamowienia" />
+          <ScalarProperty Name="ID_dostawca" ColumnName="ID_dostawca" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zamowienie_material">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Zamowienie_material">
+        <MappingFragment StoreEntitySet="Zamowienie_material">
+          <ScalarProperty Name="ID_zamowienie_material" ColumnName="ID_zamowienie_material" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+          <ScalarProperty Name="Data_zamowienia" ColumnName="Data_zamowienia" />
+          <ScalarProperty Name="ID_dostawca" ColumnName="ID_dostawca" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zamowienie_narzedzie">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Zamowienie_narzedzie">
+        <MappingFragment StoreEntitySet="Zamowienie_narzedzie">
+          <ScalarProperty Name="ID_zamowienie_narzedzie" ColumnName="ID_zamowienie_narzedzie" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+          <ScalarProperty Name="Data_zamowienia" ColumnName="Data_zamowienia" />
+          <ScalarProperty Name="ID_dostawca" ColumnName="ID_dostawca" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zamowienie_polprodukt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Zamowienie_polprodukt">
+        <MappingFragment StoreEntitySet="Zamowienie_polprodukt">
+          <ScalarProperty Name="ID_zamowienie_polprodukt" ColumnName="ID_zamowienie_polprodukt" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+          <ScalarProperty Name="Data_zamowienia" ColumnName="Data_zamowienia" />
+          <ScalarProperty Name="ID_dostawca" ColumnName="ID_dostawca" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zamowienie_produkt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Zamowienie_produkt">
+        <MappingFragment StoreEntitySet="Zamowienie_produkt">
+          <ScalarProperty Name="ID_zamowienie_produkt" ColumnName="ID_zamowienie_produkt" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+          <ScalarProperty Name="Data_zamowienia" ColumnName="Data_zamowienia" />
+          <ScalarProperty Name="ID_dostawca" ColumnName="ID_dostawca" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zamowienie_szczegol">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Zamowienie_szczegol">
+        <MappingFragment StoreEntitySet="Zamowienie_szczegol">
+          <ScalarProperty Name="ID_zamowienie_szczegol" ColumnName="ID_zamowienie_szczegol" />
+          <ScalarProperty Name="ID_zamowienie" ColumnName="ID_zamowienie" />
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="ID_gwarancja" ColumnName="ID_gwarancja" />
+          <ScalarProperty Name="Ilosc" ColumnName="Ilosc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zamowienie_szczegol_pojazd">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Zamowienie_szczegol_pojazd">
+        <MappingFragment StoreEntitySet="Zamowienie_szczegol_pojazd">
+          <ScalarProperty Name="ID_zamowienie_szczegol_pojazd" ColumnName="ID_zamowienie_szczegol_pojazd" />
+          <ScalarProperty Name="ID_zamowienie" ColumnName="ID_zamowienie" />
+          <ScalarProperty Name="ID_pojazd" ColumnName="ID_pojazd" />
+          <ScalarProperty Name="ID_gwarancja" ColumnName="ID_gwarancja" />
+          <ScalarProperty Name="Ilosc" ColumnName="Ilosc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zwrot_pojazd">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Zwrot_pojazd">
+        <MappingFragment StoreEntitySet="Zwrot_pojazd">
+          <ScalarProperty Name="ID_zwrot_pojazd" ColumnName="ID_zwrot_pojazd" />
+          <ScalarProperty Name="ID_reklamacja_pojazd" ColumnName="ID_reklamacja_pojazd" />
+          <ScalarProperty Name="ID_pojazd" ColumnName="ID_pojazd" />
+          <ScalarProperty Name="Ilosc" ColumnName="Ilosc" />
+          <ScalarProperty Name="Akceptacja" ColumnName="Akceptacja" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zwrot_produkt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.Zwrot_produkt">
+        <MappingFragment StoreEntitySet="Zwrot_produkt">
+          <ScalarProperty Name="ID_zwrot_produkt" ColumnName="ID_zwrot_produkt" />
+          <ScalarProperty Name="ID_reklamacja_produkt" ColumnName="ID_reklamacja_produkt" />
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="Ilosc" ColumnName="Ilosc" />
+          <ScalarProperty Name="Akceptacja" ColumnName="Akceptacja" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Alerty_ProductionDepartment">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Alerty_ProductionDepartment">
+        <MappingFragment StoreEntitySet="v_Alerty_ProductionDepartment">
+          <ScalarProperty Name="ID_alert" ColumnName="ID_alert" />
+          <ScalarProperty Name="ID_dzial" ColumnName="ID_dzial" />
+          <ScalarProperty Name="Nazwa_dzial" ColumnName="Nazwa_dzial" />
+          <ScalarProperty Name="Tresc" ColumnName="Tresc" />
+          <ScalarProperty Name="Czy_odczytano" ColumnName="Czy_odczytano" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Alerty_ProductionDepartment_nieodczytane">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Alerty_ProductionDepartment_nieodczytane">
+        <MappingFragment StoreEntitySet="v_Alerty_ProductionDepartment_nieodczytane">
+          <ScalarProperty Name="ID_alert" ColumnName="ID_alert" />
+          <ScalarProperty Name="ID_dzial" ColumnName="ID_dzial" />
+          <ScalarProperty Name="Nazwa_dzial" ColumnName="Nazwa_dzial" />
+          <ScalarProperty Name="Tresc" ColumnName="Tresc" />
+          <ScalarProperty Name="Czy_odczytano" ColumnName="Czy_odczytano" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Calkowity_koszt_zamowienia">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Calkowity_koszt_zamowienia">
+        <MappingFragment StoreEntitySet="v_Calkowity_koszt_zamowienia">
+          <ScalarProperty Name="ID_zamowienie" ColumnName="ID_zamowienie" />
+          <ScalarProperty Name="Koszt" ColumnName="Koszt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Czas_wytwarzanie_polprodukt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Czas_wytwarzanie_polprodukt">
+        <MappingFragment StoreEntitySet="v_Czas_wytwarzanie_polprodukt">
+          <ScalarProperty Name="ID_polprodukt" ColumnName="ID_polprodukt" />
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="Produkt" ColumnName="Produkt" />
+          <ScalarProperty Name="Półprodukt" ColumnName="Półprodukt" />
+          <ScalarProperty Name="Czas" ColumnName="Czas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Czas_wytwarzanie_produkt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Czas_wytwarzanie_produkt">
+        <MappingFragment StoreEntitySet="v_Czas_wytwarzanie_produkt">
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="Produkt" ColumnName="Produkt" />
+          <ScalarProperty Name="Czas" ColumnName="Czas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Czesci">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Czesci">
+        <MappingFragment StoreEntitySet="v_Czesci">
+          <ScalarProperty Name="ID_czesc" ColumnName="ID_czesc" />
+          <ScalarProperty Name="ID_rodzaj_czesc" ColumnName="ID_rodzaj_czesc" />
+          <ScalarProperty Name="Rodzaj_części" ColumnName="Rodzaj części" />
+          <ScalarProperty Name="Nazwa_części" ColumnName="Nazwa części" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Czynnosc_produkcyjna">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Czynnosc_produkcyjna">
+        <MappingFragment StoreEntitySet="v_Czynnosc_produkcyjna">
+          <ScalarProperty Name="ID_czynnosci" ColumnName="ID czynnosci" />
+          <ScalarProperty Name="Nazwa_czynnosci" ColumnName="Nazwa czynnosci" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Ilosc_kontrola_pozytywna">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Ilosc_kontrola_pozytywna">
+        <MappingFragment StoreEntitySet="v_Ilosc_kontrola_pozytywna">
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="Produkt" ColumnName="Produkt" />
+          <ScalarProperty Name="Ilość" ColumnName="Ilość" />
+          <ScalarProperty Name="ID_zamowienie" ColumnName="ID_zamowienie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Kontrola_jakosci_kolejka">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Kontrola_jakosci_kolejka">
+        <MappingFragment StoreEntitySet="v_Kontrola_jakosci_kolejka">
+          <ScalarProperty Name="ID_wytwarzanie" ColumnName="ID_wytwarzanie" />
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="Nazwa_produkt" ColumnName="Nazwa_produkt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Kontrola_jakosci_produkt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Kontrola_jakosci_produkt">
+        <MappingFragment StoreEntitySet="v_Kontrola_jakosci_produkt">
+          <ScalarProperty Name="ID_kontrola_jakosci_produkt" ColumnName="ID_kontrola_jakosci_produkt" />
+          <ScalarProperty Name="Pracownik" ColumnName="Pracownik" />
+          <ScalarProperty Name="Rodzaj_kontrola" ColumnName="Rodzaj_kontrola" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Kontrola_negatywna">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Kontrola_negatywna">
+        <MappingFragment StoreEntitySet="v_Kontrola_negatywna">
+          <ScalarProperty Name="ID_wytwarzanie" ColumnName="ID_wytwarzanie" />
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="Produkt" ColumnName="Produkt" />
+          <ScalarProperty Name="Wynik_kontrola" ColumnName="Wynik_kontrola" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Kontrola_parametr_produkt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Kontrola_parametr_produkt">
+        <MappingFragment StoreEntitySet="v_Kontrola_parametr_produkt">
+          <ScalarProperty Name="ID_wytwarzanie" ColumnName="ID_wytwarzanie" />
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="Produkt" ColumnName="Produkt" />
+          <ScalarProperty Name="Parametr" ColumnName="Parametr" />
+          <ScalarProperty Name="Wartość" ColumnName="Wartość" />
+          <ScalarProperty Name="Zakres_dolny" ColumnName="Zakres dolny" />
+          <ScalarProperty Name="Zakres_górny" ColumnName="Zakres górny" />
+          <ScalarProperty Name="Rezultat_kontroli" ColumnName="Rezultat kontroli" />
+          <ScalarProperty Name="ID_zamowienie" ColumnName="ID_zamowienie" />
+          <ScalarProperty Name="ID_parametr_produkt" ColumnName="ID_parametr_produkt" />
+          <ScalarProperty Name="Data_od" ColumnName="Data_od" />
+          <ScalarProperty Name="Data_do" ColumnName="Data_do" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Kontrola_pozytywna">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Kontrola_pozytywna">
+        <MappingFragment StoreEntitySet="v_Kontrola_pozytywna">
+          <ScalarProperty Name="ID_wytwarzanie" ColumnName="ID_wytwarzanie" />
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="Produkt" ColumnName="Produkt" />
+          <ScalarProperty Name="Wynik_kontrola" ColumnName="Wynik_kontrola" />
+          <ScalarProperty Name="ID_zamowienie" ColumnName="ID_zamowienie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Kontrola_wszystkie">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Kontrola_wszystkie">
+        <MappingFragment StoreEntitySet="v_Kontrola_wszystkie">
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="Produkt" ColumnName="Produkt" />
+          <ScalarProperty Name="Wynik_kontrola" ColumnName="Wynik_kontrola" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Koszt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Koszt">
+        <MappingFragment StoreEntitySet="v_Koszt">
+          <ScalarProperty Name="Nazwa_produkt" ColumnName="Nazwa_produkt" />
+          <ScalarProperty Name="Koszt_produktów" ColumnName="Koszt produktów" />
+          <ScalarProperty Name="Nazwa" ColumnName="Nazwa" />
+          <ScalarProperty Name="Ilosc" ColumnName="Ilosc" />
+          <ScalarProperty Name="Koszt_półproduktów" ColumnName="Koszt półproduktów" />
+          <ScalarProperty Name="SUMA" ColumnName="SUMA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Koszt_procesow_polprodukt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Koszt_procesow_polprodukt">
+        <MappingFragment StoreEntitySet="v_Koszt_procesow_polprodukt">
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Półprodukt" ColumnName="Półprodukt" />
+          <ScalarProperty Name="Czas_trwania" ColumnName="Czas trwania" />
+          <ScalarProperty Name="Czynność" ColumnName="Czynność" />
+          <ScalarProperty Name="Suma_kosztu_procesów" ColumnName="Suma kosztu procesów" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Koszt_procesow_produkt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Koszt_procesow_produkt">
+        <MappingFragment StoreEntitySet="v_Koszt_procesow_produkt">
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="Produkt" ColumnName="Produkt" />
+          <ScalarProperty Name="Czynność" ColumnName="Czynność" />
+          <ScalarProperty Name="Czas_trwania" ColumnName="Czas trwania" />
+          <ScalarProperty Name="Koszt_roboczogodziny_stanowiska__PLN_" ColumnName="Koszt roboczogodziny stanowiska {PLN}" />
+          <ScalarProperty Name="Suma_kosztu_procesów" ColumnName="Suma kosztu procesów" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Koszt_produkcji">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Koszt_produkcji">
+        <MappingFragment StoreEntitySet="v_Koszt_produkcji">
+          <ScalarProperty Name="Nazwa_produkt" ColumnName="Nazwa_produkt" />
+          <ScalarProperty Name="Koszt_wytworzenia_produktu__PLN_" ColumnName="Koszt wytworzenia produktu {PLN}" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Koszt_roboczogodziny_stanowiska">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Koszt_roboczogodziny_stanowiska">
+        <MappingFragment StoreEntitySet="v_Koszt_roboczogodziny_stanowiska">
+          <ScalarProperty Name="ID_stanowiska_produkcyjnego" ColumnName="ID stanowiska produkcyjnego" />
+          <ScalarProperty Name="Koszt_roboczogodziny_stanowiska__PLN_" ColumnName="Koszt roboczogodziny stanowiska {PLN}" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Liczba_zabiegow_wytworczych_polprodukt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Liczba_zabiegow_wytworczych_polprodukt">
+        <MappingFragment StoreEntitySet="v_Liczba_zabiegow_wytworczych_polprodukt">
+          <ScalarProperty Name="Półprodukt" ColumnName="Półprodukt" />
+          <ScalarProperty Name="Liczba_zabiegów" ColumnName="Liczba zabiegów" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Liczba_zabiegow_wytworczych_produkt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Liczba_zabiegow_wytworczych_produkt">
+        <MappingFragment StoreEntitySet="v_Liczba_zabiegow_wytworczych_produkt">
+          <ScalarProperty Name="Produkt" ColumnName="Produkt" />
+          <ScalarProperty Name="Liczba_zabiegów" ColumnName="Liczba zabiegów" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Maszyna">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Maszyna">
+        <MappingFragment StoreEntitySet="v_Maszyna">
+          <ScalarProperty Name="ID_maszyna" ColumnName="ID_maszyna" />
+          <ScalarProperty Name="ID_rodzaj_maszyna" ColumnName="ID_rodzaj_maszyna" />
+          <ScalarProperty Name="Rodzaj_maszyny" ColumnName="Rodzaj maszyny" />
+          <ScalarProperty Name="Nazwa_maszyny" ColumnName="Nazwa maszyny" />
+          <ScalarProperty Name="Koszt_roboczogodziny" ColumnName="Koszt roboczogodziny" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Material">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Material">
+        <MappingFragment StoreEntitySet="v_Material">
+          <ScalarProperty Name="ID_material" ColumnName="ID_material" />
+          <ScalarProperty Name="ID_rodzaj_material" ColumnName="ID_rodzaj_material" />
+          <ScalarProperty Name="Rodzaj_materiału" ColumnName="Rodzaj materiału" />
+          <ScalarProperty Name="Nazwa_materiału" ColumnName="Nazwa materiału" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Nr_seryjny_maszyna">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Nr_seryjny_maszyna">
+        <MappingFragment StoreEntitySet="v_Nr_seryjny_maszyna">
+          <ScalarProperty Name="ID_maszyny" ColumnName="ID maszyny" />
+          <ScalarProperty Name="Nazwa_maszyny" ColumnName="Nazwa maszyny" />
+          <ScalarProperty Name="Numer_seryjny" ColumnName="Numer seryjny" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Parametry_maszyna">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Parametry_maszyna">
+        <MappingFragment StoreEntitySet="v_Parametry_maszyna">
+          <ScalarProperty Name="ID_maszyna" ColumnName="ID_maszyna" />
+          <ScalarProperty Name="ID_rodzaj_parametr" ColumnName="ID_rodzaj_parametr" />
+          <ScalarProperty Name="Nazwa_maszyny" ColumnName="Nazwa maszyny" />
+          <ScalarProperty Name="Parametr" ColumnName="Parametr" />
+          <ScalarProperty Name="Jednostka" ColumnName="Jednostka" />
+          <ScalarProperty Name="Zakres___granica_dolna" ColumnName="Zakres - granica dolna" />
+          <ScalarProperty Name="Zakres___granica_górna" ColumnName="Zakres - granica górna" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Parametry_material">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Parametry_material">
+        <MappingFragment StoreEntitySet="v_Parametry_material">
+          <ScalarProperty Name="ID_material" ColumnName="ID_material" />
+          <ScalarProperty Name="ID_rodzaj_parametr" ColumnName="ID_rodzaj_parametr" />
+          <ScalarProperty Name="Nazwa_materiału" ColumnName="Nazwa materiału" />
+          <ScalarProperty Name="Parametr" ColumnName="Parametr" />
+          <ScalarProperty Name="Jednostka" ColumnName="Jednostka" />
+          <ScalarProperty Name="Zakres___granica_dolna" ColumnName="Zakres - granica dolna" />
+          <ScalarProperty Name="Zakres___granica_górna" ColumnName="Zakres - granica górna" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Parametry_produkt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Parametry_produkt">
+        <MappingFragment StoreEntitySet="v_Parametry_produkt">
+          <ScalarProperty Name="ID_parametr_produkt" ColumnName="ID_parametr_produkt" />
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="Produkt" ColumnName="Produkt" />
+          <ScalarProperty Name="Parametr" ColumnName="Parametr" />
+          <ScalarProperty Name="Wymiar_minimalny" ColumnName="Wymiar minimalny" />
+          <ScalarProperty Name="Wymiar_maksymalny" ColumnName="Wymiar maksymalny" />
+          <ScalarProperty Name="Jednostka" ColumnName="Jednostka" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Pracownik_produkcja">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Pracownik_produkcja">
+        <MappingFragment StoreEntitySet="v_Pracownik_produkcja">
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+          <ScalarProperty Name="Pracownik" ColumnName="Pracownik" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Proces_polprodukt_czynnosc">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Proces_polprodukt_czynnosc">
+        <MappingFragment StoreEntitySet="v_Proces_polprodukt_czynnosc">
+          <ScalarProperty Name="ID_Półproduktu" ColumnName="ID Półproduktu" />
+          <ScalarProperty Name="Półprodukt" ColumnName="Półprodukt" />
+          <ScalarProperty Name="Czynność" ColumnName="Czynność" />
+          <ScalarProperty Name="ID_Produktu" ColumnName="ID Produktu" />
+          <ScalarProperty Name="ID_proces_polprodukt" ColumnName="ID_proces_polprodukt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Proces_produkt_czynnosc">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Proces_produkt_czynnosc">
+        <MappingFragment StoreEntitySet="v_Proces_produkt_czynnosc">
+          <ScalarProperty Name="ID_Produktu" ColumnName="ID Produktu" />
+          <ScalarProperty Name="Produkt" ColumnName="Produkt" />
+          <ScalarProperty Name="Czynność" ColumnName="Czynność" />
+          <ScalarProperty Name="ID_proces_produkt" ColumnName="ID_proces_produkt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Proces_wytwarzanie_polprodukt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Proces_wytwarzanie_polprodukt">
+        <MappingFragment StoreEntitySet="v_Proces_wytwarzanie_polprodukt">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Półprodukt" ColumnName="Półprodukt" />
+          <ScalarProperty Name="Czynność_produkcyjna" ColumnName="Czynność produkcyjna" />
+          <ScalarProperty Name="Pracownik" ColumnName="Pracownik" />
+          <ScalarProperty Name="Stanowisko" ColumnName="Stanowisko" />
+          <ScalarProperty Name="Szacowany_czas__min_" ColumnName="Szacowany czas {min}" />
+          <ScalarProperty Name="Data_rozpoczęcia" ColumnName="Data rozpoczęcia" />
+          <ScalarProperty Name="Data_zakończenia" ColumnName="Data zakończenia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Proces_wytwarzanie_polprodukt_ewidencja">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Proces_wytwarzanie_polprodukt_ewidencja">
+        <MappingFragment StoreEntitySet="v_Proces_wytwarzanie_polprodukt_ewidencja">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Półprodukt" ColumnName="Półprodukt" />
+          <ScalarProperty Name="Czynność_produkcyjna" ColumnName="Czynność produkcyjna" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+          <ScalarProperty Name="Pracownik" ColumnName="Pracownik" />
+          <ScalarProperty Name="Stanowisko" ColumnName="Stanowisko" />
+          <ScalarProperty Name="Szacowany_czas__min_" ColumnName="Szacowany czas {min}" />
+          <ScalarProperty Name="Data_rozpoczęcia" ColumnName="Data rozpoczęcia" />
+          <ScalarProperty Name="Data_zakończenia" ColumnName="Data zakończenia" />
+          <ScalarProperty Name="Czas_pracy" ColumnName="Czas pracy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Proces_wytwarzanie_polprodukt_koszt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Proces_wytwarzanie_polprodukt_koszt">
+        <MappingFragment StoreEntitySet="v_Proces_wytwarzanie_polprodukt_koszt">
+          <ScalarProperty Name="ID_zamowienie" ColumnName="ID_zamowienie" />
+          <ScalarProperty Name="Półprodukt" ColumnName="Półprodukt" />
+          <ScalarProperty Name="ID_stanowisko" ColumnName="ID_stanowisko" />
+          <ScalarProperty Name="Stanowisko" ColumnName="Stanowisko" />
+          <ScalarProperty Name="Data_rozpoczęcia" ColumnName="Data rozpoczęcia" />
+          <ScalarProperty Name="Data_zakończenia" ColumnName="Data zakończenia" />
+          <ScalarProperty Name="Czas_pracy" ColumnName="Czas pracy" />
+          <ScalarProperty Name="Koszt_roboczogodziny_stanowiska__PLN_" ColumnName="Koszt roboczogodziny stanowiska {PLN}" />
+          <ScalarProperty Name="Koszt_procesu" ColumnName="Koszt_procesu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Proces_wytwarzanie_produkt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Proces_wytwarzanie_produkt">
+        <MappingFragment StoreEntitySet="v_Proces_wytwarzanie_produkt">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Produkt" ColumnName="Produkt" />
+          <ScalarProperty Name="Czynność_produkcyjna" ColumnName="Czynność produkcyjna" />
+          <ScalarProperty Name="Pracownik" ColumnName="Pracownik" />
+          <ScalarProperty Name="Stanowisko" ColumnName="Stanowisko" />
+          <ScalarProperty Name="Szacowany_czas__min_" ColumnName="Szacowany czas {min}" />
+          <ScalarProperty Name="Data_rozpoczęcia" ColumnName="Data rozpoczęcia" />
+          <ScalarProperty Name="Data_zakończenia" ColumnName="Data zakończenia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Proces_wytwarzanie_produkt_ewidencja">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Proces_wytwarzanie_produkt_ewidencja">
+        <MappingFragment StoreEntitySet="v_Proces_wytwarzanie_produkt_ewidencja">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Produkt" ColumnName="Produkt" />
+          <ScalarProperty Name="Czynność_produkcyjna" ColumnName="Czynność produkcyjna" />
+          <ScalarProperty Name="ID_pracownik" ColumnName="ID_pracownik" />
+          <ScalarProperty Name="Pracownik" ColumnName="Pracownik" />
+          <ScalarProperty Name="Stanowisko" ColumnName="Stanowisko" />
+          <ScalarProperty Name="Szacowany_czas__min_" ColumnName="Szacowany czas {min}" />
+          <ScalarProperty Name="Data_rozpoczęcia" ColumnName="Data rozpoczęcia" />
+          <ScalarProperty Name="Data_zakończenia" ColumnName="Data zakończenia" />
+          <ScalarProperty Name="Czas_pracy" ColumnName="Czas pracy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Proces_wytwarzanie_produkt_koszt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Proces_wytwarzanie_produkt_koszt">
+        <MappingFragment StoreEntitySet="v_Proces_wytwarzanie_produkt_koszt">
+          <ScalarProperty Name="ID_zamowienie" ColumnName="ID_zamowienie" />
+          <ScalarProperty Name="Produkt" ColumnName="Produkt" />
+          <ScalarProperty Name="Czynność_produkcyjna" ColumnName="Czynność produkcyjna" />
+          <ScalarProperty Name="ID_stanowisko" ColumnName="ID_stanowisko" />
+          <ScalarProperty Name="Stanowisko" ColumnName="Stanowisko" />
+          <ScalarProperty Name="Data_rozpoczęcia" ColumnName="Data rozpoczęcia" />
+          <ScalarProperty Name="Data_zakończenia" ColumnName="Data zakończenia" />
+          <ScalarProperty Name="Czas_pracy" ColumnName="Czas pracy" />
+          <ScalarProperty Name="Koszt_roboczogodziny_stanowiska__PLN_" ColumnName="Koszt roboczogodziny stanowiska {PLN}" />
+          <ScalarProperty Name="Koszt_procesu" ColumnName="Koszt_procesu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Rodzaj_kontrola">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Rodzaj_kontrola">
+        <MappingFragment StoreEntitySet="v_Rodzaj_kontrola">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Rodzaj_kontroli" ColumnName="Rodzaj kontroli" />
+          <ScalarProperty Name="Procedura_kontrolna" ColumnName="Procedura kontrolna" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Rodzaj_parametr">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Rodzaj_parametr">
+        <MappingFragment StoreEntitySet="v_Rodzaj_parametr">
+          <ScalarProperty Name="ID_rodzaj_parametr" ColumnName="ID_rodzaj_parametr" />
+          <ScalarProperty Name="Parametr" ColumnName="Parametr" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Sklad_maszyna">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Sklad_maszyna">
+        <MappingFragment StoreEntitySet="v_Sklad_maszyna">
+          <ScalarProperty Name="ID_maszyna" ColumnName="ID_maszyna" />
+          <ScalarProperty Name="ID_czesc" ColumnName="ID_czesc" />
+          <ScalarProperty Name="ID_sklad_maszyna" ColumnName="ID_sklad_maszyna" />
+          <ScalarProperty Name="Nazwa_maszyny" ColumnName="Nazwa maszyny" />
+          <ScalarProperty Name="Nazwa_części" ColumnName="Nazwa części" />
+          <ScalarProperty Name="Liczba_czesci" ColumnName="Liczba czesci" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Sklad_polprodukt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Sklad_polprodukt">
+        <MappingFragment StoreEntitySet="v_Sklad_polprodukt">
+          <ScalarProperty Name="ID_skład" ColumnName="ID_skład" />
+          <ScalarProperty Name="Półprodukt" ColumnName="Półprodukt" />
+          <ScalarProperty Name="Materiał" ColumnName="Materiał" />
+          <ScalarProperty Name="Rodzaj" ColumnName="Rodzaj" />
+          <ScalarProperty Name="Waga__g_" ColumnName="Waga {g}" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Sklad_produkt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Sklad_produkt">
+        <MappingFragment StoreEntitySet="v_Sklad_produkt">
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="ID_polprodukt" ColumnName="ID_polprodukt" />
+          <ScalarProperty Name="ID_skład" ColumnName="ID skład" />
+          <ScalarProperty Name="Produkt" ColumnName="Produkt" />
+          <ScalarProperty Name="Półprodukt" ColumnName="Półprodukt" />
+          <ScalarProperty Name="Ilosc" ColumnName="Ilosc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Sklad_produkt_ewidencja">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Sklad_produkt_ewidencja">
+        <MappingFragment StoreEntitySet="v_Sklad_produkt_ewidencja">
+          <ScalarProperty Name="ID_skład" ColumnName="ID skład" />
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="ID_polprodukt" ColumnName="ID_polprodukt" />
+          <ScalarProperty Name="Półprodukt" ColumnName="Półprodukt" />
+          <ScalarProperty Name="Ilosc" ColumnName="Ilosc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Sklad_produkt_material">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Sklad_produkt_material">
+        <MappingFragment StoreEntitySet="v_Sklad_produkt_material">
+          <ScalarProperty Name="ID_sklad_produkt_material" ColumnName="ID_sklad_produkt_material" />
+          <ScalarProperty Name="Produkt" ColumnName="Produkt" />
+          <ScalarProperty Name="Materiał" ColumnName="Materiał" />
+          <ScalarProperty Name="Rodzaj" ColumnName="Rodzaj" />
+          <ScalarProperty Name="Waga__g_" ColumnName="Waga {g}" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Sklad_SP_maszyna">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Sklad_SP_maszyna">
+        <MappingFragment StoreEntitySet="v_Sklad_SP_maszyna">
+          <ScalarProperty Name="ID_stanowiska_produkcyjnego" ColumnName="ID stanowiska produkcyjnego" />
+          <ScalarProperty Name="ID_maszyna_nr" ColumnName="ID_maszyna_nr" />
+          <ScalarProperty Name="ID_maszyna" ColumnName="ID_maszyna" />
+          <ScalarProperty Name="Nr_seryjny_maszyny" ColumnName="Nr seryjny maszyny" />
+          <ScalarProperty Name="Maszyna" ColumnName="Maszyna" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Sklad_stanowisko_produkcyjne_maszyna">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Sklad_stanowisko_produkcyjne_maszyna">
+        <MappingFragment StoreEntitySet="v_Sklad_stanowisko_produkcyjne_maszyna">
+          <ScalarProperty Name="ID_stanowiska_produkcyjnego" ColumnName="ID stanowiska produkcyjnego" />
+          <ScalarProperty Name="Nazwa_Stanowiska" ColumnName="Nazwa Stanowiska" />
+          <ScalarProperty Name="Nr_seryjny_maszyny" ColumnName="Nr seryjny maszyny" />
+          <ScalarProperty Name="Maszyna" ColumnName="Maszyna" />
+          <ScalarProperty Name="Koszt_roboczogodziny__PLN_" ColumnName="Koszt roboczogodziny {PLN}" />
+          <ScalarProperty Name="Rodzaj_maszyny" ColumnName="Rodzaj maszyny" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Sklad_stanowisko_produkcyjne_maszyna_ID">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Sklad_stanowisko_produkcyjne_maszyna_ID">
+        <MappingFragment StoreEntitySet="v_Sklad_stanowisko_produkcyjne_maszyna_ID">
+          <ScalarProperty Name="ID_sklad_stanowisko_produkcyjne_maszyna" ColumnName="ID_sklad_stanowisko_produkcyjne_maszyna" />
+          <ScalarProperty Name="ID_stanowiska_produkcyjnego" ColumnName="ID stanowiska produkcyjnego" />
+          <ScalarProperty Name="Nazwa_Stanowiska" ColumnName="Nazwa Stanowiska" />
+          <ScalarProperty Name="Nr_seryjny_maszyny" ColumnName="Nr seryjny maszyny" />
+          <ScalarProperty Name="Maszyna" ColumnName="Maszyna" />
+          <ScalarProperty Name="Koszt_roboczogodziny__PLN_" ColumnName="Koszt roboczogodziny {PLN}" />
+          <ScalarProperty Name="Rodzaj_maszyny" ColumnName="Rodzaj maszyny" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Sklad_stanowisko_produkcyjne_narzedzie">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Sklad_stanowisko_produkcyjne_narzedzie">
+        <MappingFragment StoreEntitySet="v_Sklad_stanowisko_produkcyjne_narzedzie">
+          <ScalarProperty Name="ID_Stanowiska" ColumnName="ID Stanowiska" />
+          <ScalarProperty Name="Nazwa_stanowiska" ColumnName="Nazwa_stanowiska" />
+          <ScalarProperty Name="Narzędzie" ColumnName="Narzędzie" />
+          <ScalarProperty Name="Ilosc" ColumnName="Ilosc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Sklad_stanowisko_produkcyjne_narzedzie_ID">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Sklad_stanowisko_produkcyjne_narzedzie_ID">
+        <MappingFragment StoreEntitySet="v_Sklad_stanowisko_produkcyjne_narzedzie_ID">
+          <ScalarProperty Name="ID_sklad_stanowisko_produkcyjne_narzedzie" ColumnName="ID_sklad_stanowisko_produkcyjne_narzedzie" />
+          <ScalarProperty Name="ID_Stanowiska" ColumnName="ID Stanowiska" />
+          <ScalarProperty Name="Nazwa_stanowiska" ColumnName="Nazwa_stanowiska" />
+          <ScalarProperty Name="Narzędzie" ColumnName="Narzędzie" />
+          <ScalarProperty Name="Ilosc" ColumnName="Ilosc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Slownik_stanowisko">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Slownik_stanowisko">
+        <MappingFragment StoreEntitySet="v_Slownik_stanowisko">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Nazwa_stanowiska" ColumnName="Nazwa stanowiska" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Stanowiska_produkcyjne">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Stanowiska_produkcyjne">
+        <MappingFragment StoreEntitySet="v_Stanowiska_produkcyjne">
+          <ScalarProperty Name="ID_stanowisko_produkcyjne" ColumnName="ID_stanowisko_produkcyjne" />
+          <ScalarProperty Name="Nazwa" ColumnName="Nazwa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Stanowisko_produkcyjne">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Stanowisko_produkcyjne">
+        <MappingFragment StoreEntitySet="v_Stanowisko_produkcyjne">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Nazwa_stanowiska" ColumnName="Nazwa stanowiska" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Sumaryczny_czas_wytwarzania_produktu">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Sumaryczny_czas_wytwarzania_produktu">
+        <MappingFragment StoreEntitySet="v_Sumaryczny_czas_wytwarzania_produktu">
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="Produkt" ColumnName="Produkt" />
+          <ScalarProperty Name="Czas" ColumnName="Czas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Szacowany_czas_wytwarzania_polprodukt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Szacowany_czas_wytwarzania_polprodukt">
+        <MappingFragment StoreEntitySet="v_Szacowany_czas_wytwarzania_polprodukt">
+          <ScalarProperty Name="Półprodukt" ColumnName="Półprodukt" />
+          <ScalarProperty Name="Czas_wytwarzania__h_" ColumnName="Czas wytwarzania {h}" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Szacowany_czas_wytwarzania_produkt">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Szacowany_czas_wytwarzania_produkt">
+        <MappingFragment StoreEntitySet="v_Szacowany_czas_wytwarzania_produkt">
+          <ScalarProperty Name="Produkt" ColumnName="Produkt" />
+          <ScalarProperty Name="Czas_wytwarzania__h_" ColumnName="Czas wytwarzania {h}" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Tygodniowe_rozliczenie_pracy_produkcja">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Tygodniowe_rozliczenie_pracy_produkcja">
+        <MappingFragment StoreEntitySet="v_Tygodniowe_rozliczenie_pracy_produkcja">
+          <ScalarProperty Name="Pracownik" ColumnName="Pracownik" />
+          <ScalarProperty Name="Czas_pracy" ColumnName="Czas pracy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Wynik_kontroli">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Wynik_kontroli">
+        <MappingFragment StoreEntitySet="v_Wynik_kontroli">
+          <ScalarProperty Name="ID_wytwarzanie" ColumnName="ID_wytwarzanie" />
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="Wynik_kontrola" ColumnName="Wynik_kontrola" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Wytwarzanie">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Wytwarzanie">
+        <MappingFragment StoreEntitySet="v_Wytwarzanie">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_zamówienie" ColumnName="ID zamówienie" />
+          <ScalarProperty Name="Produkt" ColumnName="Produkt" />
+          <ScalarProperty Name="Pracownik" ColumnName="Pracownik" />
+          <ScalarProperty Name="Data_rozpoczęcia" ColumnName="Data rozpoczęcia" />
+          <ScalarProperty Name="Data_zakończenia" ColumnName="Data zakończenia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Wytworzone_produkty">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Wytworzone_produkty">
+        <MappingFragment StoreEntitySet="v_Wytworzone_produkty">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="Produkt" ColumnName="Produkt" />
+          <ScalarProperty Name="Czynność_produkcyjna" ColumnName="Czynność produkcyjna" />
+          <ScalarProperty Name="Pracownik" ColumnName="Pracownik" />
+          <ScalarProperty Name="Stanowisko" ColumnName="Stanowisko" />
+          <ScalarProperty Name="Szacowany_czas__min_" ColumnName="Szacowany czas {min}" />
+          <ScalarProperty Name="Data_rozpoczęcia" ColumnName="Data rozpoczęcia" />
+          <ScalarProperty Name="Data_zakończenia" ColumnName="Data zakończenia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Wytworzone_produkty_zamowienie">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Wytworzone_produkty_zamowienie">
+        <MappingFragment StoreEntitySet="v_Wytworzone_produkty_zamowienie">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_produkt" ColumnName="ID_produkt" />
+          <ScalarProperty Name="Produkt" ColumnName="Produkt" />
+          <ScalarProperty Name="Czynność_produkcyjna" ColumnName="Czynność produkcyjna" />
+          <ScalarProperty Name="Pracownik" ColumnName="Pracownik" />
+          <ScalarProperty Name="Stanowisko" ColumnName="Stanowisko" />
+          <ScalarProperty Name="Szacowany_czas__min_" ColumnName="Szacowany czas {min}" />
+          <ScalarProperty Name="Data_rozpoczęcia" ColumnName="Data rozpoczęcia" />
+          <ScalarProperty Name="Data_zakończenia" ColumnName="Data zakończenia" />
+          <ScalarProperty Name="ID_zamowienie" ColumnName="ID_zamowienie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Zamowienie_produkcja">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Zamowienie_produkcja">
+        <MappingFragment StoreEntitySet="v_Zamowienie_produkcja">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Klient" ColumnName="Klient" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Zamowienie_szczegol_produkcja">
+      <EntityTypeMapping TypeName="Firma_produkcyjnaModel.v_Zamowienie_szczegol_produkcja">
+        <MappingFragment StoreEntitySet="v_Zamowienie_szczegol_produkcja">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_produktu" ColumnName="ID produktu" />
+          <ScalarProperty Name="Produkt" ColumnName="Produkt" />
+          <ScalarProperty Name="Ilość" ColumnName="Ilość" />
+          <ScalarProperty Name="ID_zamowienie_szczegol" ColumnName="ID_zamowienie_szczegol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
